@@ -1,0 +1,19 @@
+# ==============================================================================
+# InterFarm Robots.txt (Search Engine Optimization)
+# ==============================================================================
+
+User-agent: *
+Allow: /
+Disallow: /_raw_originals/
+
+# Specific Crawlers
+User-agent: Googlebot
+Allow: /
+Disallow: /_raw_originals/
+
+User-agent: Googlebot-Image
+Allow: /assets/images/
+Disallow: /_raw_originals/
+
+# XML Sitemap Location
+Sitemap: https://interfarm.my.id/sitemap.xml

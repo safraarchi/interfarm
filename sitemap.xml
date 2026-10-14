@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Beranda (Homepage) -->
+  <url>
+    <loc>https://interfarm.my.id/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://interfarm.my.id/assets/images/logo/logo.png</image:loc>
+      <image:title>InterFarm Indonesia - Agrotech &amp; Pupuk Organik Presisi 10.100 PPM</image:title>
+    </image:image>
+  </url>
+
+  <!-- Katalog Produk Ritel (Sawit, Kopi, Padi, Pasta) -->
+  <url>
+    <loc>https://interfarm.my.id/katalog/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://interfarm.my.id/assets/images/katalog/sawit-jumbo/2.webp</image:loc>
+      <image:title>Paket Jumbo Sawit 25 Liter InterFarm</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://interfarm.my.id/assets/images/katalog/pasta/1.webp</image:loc>
+      <image:title>Pupuk Bio Humat Pasta 20 Kg InterFarm</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://interfarm.my.id/assets/images/katalog/kopi/1.webp</image:loc>
+      <image:title>POC Kopi Konsentrat Organik InterFarm</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://interfarm.my.id/assets/images/katalog/padi/1.webp</image:loc>
+      <image:title>POC Padi Guano Organik InterFarm</image:title>
+    </image:image>
+  </url>
+
+  <!-- Layanan Maklon B2B & Bahan Aktif F1 -->
+  <url>
+    <loc>https://interfarm.my.id/maklon/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://interfarm.my.id/assets/images/maklon/maklon-pabrik-kebun-wa.webp</image:loc>
+      <image:title>Layanan Maklon Pupuk Private Label &amp; Pabrik Pupuk Kebun Mandiri InterFarm</image:title>
+    </image:image>
+  </url>
+
+  <!-- Tentang Kami (Profil, Visi, Riset 1N) -->
+  <url>
+    <loc>https://interfarm.my.id/about/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://interfarm.my.id/assets/images/logo/logo.png</image:loc>
+      <image:title>Laboratorium dan Fasilitas Agrotech InterFarm Indonesia</image:title>
+    </image:image>
+  </url>
+
+  <!-- Kontak & Layanan Konsultasi Pelanggan -->
+  <url>
+    <loc>https://interfarm.my.id/kontak/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

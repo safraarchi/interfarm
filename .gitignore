@@ -1,5 +1,36 @@
-_raw_originals/
-*.tmp
-.DS_Store
-Thumbs.db
+# ==============================================================================
+# InterFarm Landing Page (GitHub Pages) - Git Ignore Rules
+# ==============================================================================
+
+# Operating System Files
 desktop.ini
+Thumbs.db
+ehthumbs.db
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+# Editor & IDE configuration
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary, Backup & Log Files
+*.tmp
+*.log
+*.bak
+*.backup
+*~
+
+# Heavy Raw Uncompressed Media
+_raw_originals/
+
+# Python & Node Caches (if any)
+__pycache__/
+*.py[cod]
+node_modules/
+.npm
