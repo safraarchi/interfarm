@@ -188,33 +188,28 @@
   <section class="py-8 sm:py-12 max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
     
     <!-- Filter Category Tabs (Horizontal Scroll on Mobile, Uniform Height & No Emojis) -->
-    <!-- FILTER_CATEGORY_TABS_START -->
+                        <!-- FILTER_CATEGORY_TABS_START -->
     <div class="flex items-center gap-2 sm:gap-2.5 overflow-x-auto pb-3 sm:pb-4 no-scrollbar border-b border-slate-200 mb-6 sm:mb-10">
       <button class="filter-btn active h-10 px-4 sm:px-5 rounded-full text-xs sm:text-sm font-bold border border-emerald-600 bg-emerald-600 text-white transition shadow-sm shadow-emerald-600/20 whitespace-nowrap inline-flex items-center justify-center" data-category="all">
         Semua Produk
       </button>
-
       <!-- KATEGORI KHUSUS SAWIT -->
       <button class="filter-btn h-10 px-4 sm:px-5 rounded-full text-xs sm:text-sm font-bold border border-emerald-300 bg-emerald-50/60 text-emerald-900 hover:border-emerald-400 hover:bg-emerald-100/70 transition whitespace-nowrap inline-flex items-center justify-center" data-category="sawit">
         Khusus Kelapa Sawit
       </button>
-
-      <!-- Pangan & Padi -->
+      <!-- Padi & Pangan -->
       <button class="filter-btn h-10 px-4 sm:px-5 rounded-full text-xs sm:text-sm font-bold border border-slate-200 bg-white text-slate-700 hover:text-emerald-700 hover:border-emerald-300 transition whitespace-nowrap inline-flex items-center justify-center" data-category="pangan">
         Padi & Pangan
       </button>
-
-      <!-- Hortikultura & Sayuran -->
+      <!-- Hortikultura & Sayur -->
       <button class="filter-btn h-10 px-4 sm:px-5 rounded-full text-xs sm:text-sm font-bold border border-slate-200 bg-white text-slate-700 hover:text-emerald-700 hover:border-emerald-300 transition whitespace-nowrap inline-flex items-center justify-center" data-category="hortikultura">
         Hortikultura & Sayur
       </button>
-
       <!-- Perkebunan & Buah -->
       <button class="filter-btn h-10 px-4 sm:px-5 rounded-full text-xs sm:text-sm font-bold border border-slate-200 bg-white text-slate-700 hover:text-emerald-700 hover:border-emerald-300 transition whitespace-nowrap inline-flex items-center justify-center" data-category="perkebunan">
         Perkebunan & Buah
       </button>
-
-      <!-- Pembenah Tanah & Bio-Hayati -->
+      <!-- Pembenah Tanah & Pasta -->
       <button class="filter-btn h-10 px-4 sm:px-5 rounded-full text-xs sm:text-sm font-bold border border-slate-200 bg-white text-slate-700 hover:text-emerald-700 hover:border-emerald-300 transition whitespace-nowrap inline-flex items-center justify-center" data-category="pembenah">
         Pembenah Tanah & Pasta
       </button>
@@ -223,13 +218,13 @@
 
     <!-- Product Grid (Shopee-Style 2 Columns on Mobile: grid-cols-2) -->
     <div class="grid grid-cols-2 gap-2.5 sm:gap-6 lg:grid-cols-3">
-      <!-- PRODUCT_GRID_CARDS_START -->
+                                    <!-- PRODUCT_GRID_CARDS_START -->
 
-      <!-- Product 1: Paket Jumbo Sawit (15-20 Ha) -->
+      <!-- Product: Paket Jumbo Sultan Sawit -->
       <div onclick="openProductModal('sawit-jumbo')" class="product-card cursor-pointer bg-white rounded-2xl sm:rounded-3xl border border-slate-200/90 overflow-hidden shadow-sm hover:border-emerald-500 hover:shadow-lg transition flex flex-col justify-between group p-2.5 sm:p-5" data-category="sawit">
         <div>
           <div class="relative bg-slate-50 aspect-square overflow-hidden rounded-xl sm:rounded-2xl border border-slate-100">
-            <img src="../assets/images/katalog/sawit-jumbo/2.webp" alt="Paket Jumbo Sultan InterFarm" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+            <img src="../assets/images/katalog/sawit-jumbo/2.webp" alt="Paket Jumbo Sultan Sawit" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
             <span class="absolute top-2 left-2 bg-emerald-600 text-white text-[9px] sm:text-[11px] font-bold px-2 py-0.5 rounded-md uppercase tracking-wider shadow">
               15 - 20 Ha
             </span>
@@ -257,7 +252,7 @@
         </div>
       </div>
 
-      <!-- Product 2: Paket Sawit Musim Kemarau (5L + 1Kg) -->
+      <!-- Product: Paket Sawit Musim Kemarau -->
       <div onclick="openProductModal('sawit-kemarau')" class="product-card cursor-pointer bg-white rounded-2xl sm:rounded-3xl border border-slate-200/90 overflow-hidden shadow-sm hover:border-emerald-500 hover:shadow-lg transition flex flex-col justify-between group p-2.5 sm:p-5" data-category="sawit">
         <div>
           <div class="relative bg-slate-50 aspect-square overflow-hidden rounded-xl sm:rounded-2xl border border-slate-100">
@@ -289,11 +284,11 @@
         </div>
       </div>
 
-      <!-- Product 3: Paket Sawit Biang Kocor Mini (2 Ha) -->
+      <!-- Product: Biang Kocor Sawit 2 Ha -->
       <div onclick="openProductModal('sawit-kocor')" class="product-card cursor-pointer bg-white rounded-2xl sm:rounded-3xl border border-slate-200/90 overflow-hidden shadow-sm hover:border-emerald-500 hover:shadow-lg transition flex flex-col justify-between group p-2.5 sm:p-5" data-category="sawit">
         <div>
           <div class="relative bg-slate-50 aspect-square overflow-hidden rounded-xl sm:rounded-2xl border border-slate-100">
-            <img src="../assets/images/katalog/sawit-kocor/2.webp" alt="Paket Sawit Biang Kocor Mini" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+            <img src="../assets/images/katalog/sawit-kocor/2.webp" alt="Biang Kocor Sawit 2 Ha" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
             <span class="absolute top-2 left-2 bg-emerald-600 text-white text-[9px] sm:text-[11px] font-bold px-2 py-0.5 rounded-md uppercase tracking-wider shadow">
               2 Hektar
             </span>
@@ -321,11 +316,11 @@
         </div>
       </div>
 
-      <!-- Product 4: POC Booster Kopi (5 Liter) -->
+      <!-- Product: POC Booster Khusus KOPI -->
       <div onclick="openProductModal('kopi-5l')" class="product-card cursor-pointer bg-white rounded-2xl sm:rounded-3xl border border-slate-200/90 overflow-hidden shadow-sm hover:border-emerald-500 hover:shadow-lg transition flex flex-col justify-between group p-2.5 sm:p-5" data-category="perkebunan">
         <div>
           <div class="relative bg-slate-50 aspect-square overflow-hidden rounded-xl sm:rounded-2xl border border-slate-100">
-            <img src="../assets/images/katalog/kopi/1.webp" alt="POC Booster Kopi" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+            <img src="../assets/images/katalog/kopi/1.webp" alt="POC Booster Khusus KOPI" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
             <span class="absolute top-2 left-2 bg-emerald-600 text-white text-[9px] sm:text-[11px] font-bold px-2 py-0.5 rounded-md uppercase tracking-wider shadow">
               5 Liter
             </span>
@@ -353,11 +348,11 @@
         </div>
       </div>
 
-      <!-- Product 5: POC Booster Padi Guano (5L) -->
+      <!-- Product: POC Booster Padi & Pangan -->
       <div onclick="openProductModal('padi-guano')" class="product-card cursor-pointer bg-white rounded-2xl sm:rounded-3xl border border-slate-200/90 overflow-hidden shadow-sm hover:border-emerald-500 hover:shadow-lg transition flex flex-col justify-between group p-2.5 sm:p-5" data-category="pangan">
         <div>
           <div class="relative bg-slate-50 aspect-square overflow-hidden rounded-xl sm:rounded-2xl border border-slate-100">
-            <img src="../assets/images/katalog/padi/1.webp" alt="POC Padi Guano" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+            <img src="../assets/images/katalog/padi/1.webp" alt="POC Booster Padi & Pangan" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
             <span class="absolute top-2 left-2 bg-emerald-600 text-white text-[9px] sm:text-[11px] font-bold px-2 py-0.5 rounded-md uppercase tracking-wider shadow">
               Basis Guano
             </span>
@@ -385,15 +380,15 @@
         </div>
       </div>
 
-      <!-- Product 6: POC Booster Khusus CABAI (5L) -->
+      <!-- Product: POC Booster Khusus CABAI -->
       <div onclick="openProductModal('cabe-5l')" class="product-card cursor-pointer bg-white rounded-2xl sm:rounded-3xl border border-slate-200/90 overflow-hidden shadow-sm hover:border-emerald-500 hover:shadow-lg transition flex flex-col justify-between group p-2.5 sm:p-5" data-category="hortikultura">
         <div>
           <div class="relative bg-slate-50 aspect-square overflow-hidden rounded-xl sm:rounded-2xl border border-slate-100">
-            <img src="../assets/images/katalog/cabe/1.webp" alt="POC Booster Khusus Cabai" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+            <img src="../assets/images/katalog/cabe/1.webp" alt="POC Booster Khusus CABAI" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
             <span class="absolute top-2 left-2 bg-emerald-600 text-white text-[9px] sm:text-[11px] font-bold px-2 py-0.5 rounded-md uppercase tracking-wider shadow">
               5 Liter
             </span>
-            <span class="absolute top-2 right-2 bg-rose-100 text-rose-800 border border-rose-300 text-[8px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded-md uppercase tracking-wider shadow-sm">
+            <span class="absolute top-2 right-2 bg-emerald-100 text-emerald-800 border border-emerald-300 text-[8px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded-md uppercase tracking-wider shadow-sm">
               Anti Patek
             </span>
           </div>
@@ -417,7 +412,7 @@
         </div>
       </div>
 
-      <!-- Product 7: Pupuk Pasta Bio-Humat 1N (20 Kg) -->
+      <!-- Product: Pupuk Pasta Bio-Humat 1N -->
       <div onclick="openProductModal('humat-pasta')" class="product-card cursor-pointer bg-white rounded-2xl sm:rounded-3xl border border-slate-200/90 overflow-hidden shadow-sm hover:border-emerald-500 hover:shadow-lg transition flex flex-col justify-between group p-2.5 sm:p-5" data-category="pembenah sawit">
         <div>
           <div class="relative bg-slate-50 aspect-square overflow-hidden rounded-xl sm:rounded-2xl border border-slate-100">
@@ -425,7 +420,7 @@
             <span class="absolute top-2 left-2 bg-emerald-600 text-white text-[9px] sm:text-[11px] font-bold px-2 py-0.5 rounded-md uppercase tracking-wider shadow">
               Pail 20 Kg
             </span>
-            <span class="absolute top-2 right-2 bg-amber-100 text-amber-800 border border-amber-300 text-[8px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded-md uppercase tracking-wider shadow-sm">
+            <span class="absolute top-2 right-2 bg-emerald-100 text-emerald-800 border border-emerald-300 text-[8px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded-md uppercase tracking-wider shadow-sm">
               Gembur Tanah
             </span>
           </div>
@@ -733,74 +728,74 @@
     }
 
     // Product Database for Interactive Modal
-    // PRODUCT_DATA_OBJECT_START
+                        // PRODUCT_DATA_OBJECT_START
     const productData = {
       'sawit-jumbo': {
         img: '../assets/images/katalog/sawit-jumbo/2.webp',
-        floatingBadge: '15 - 20 Hektar',
+        floatingBadge: '15 - 20 Ha',
         categoryBadge: 'Kelapa Sawit',
-        title: 'Paket Jumbo Sultan Nutrisi Sawit',
-        subtitle: '1 Jerigen Jumbo 25L + 1 Ember Pail 20Kg',
+        title: 'Paket Jumbo Sultan Sawit',
+        subtitle: '25L Booster + 20Kg Pasta',
         desc: 'Kombinasi Sawit Booster konsentrat 10.100 PPM + ZPT 100 PPM dan Pupuk Pasta formulasi Piruvatisasi Tingkat 1. Melarutkan pupuk kimia keras di piringan tanah, memutus siklus trek, dan mendongkrak tonase TBS hingga 15-20 hektar kebun sawit.',
         dosage: 'Larutkan ke Toren 1.000 Liter Air. Dosis: 1 Botol 1,5L dibagi rata untuk 2 pokok sawit (750ml/pokok). Siram merata di piringan zona perakaran aktif.',
         waText: 'Halo CS Ritel InterFarm, saya tertarik memesan Paket Jumbo Sultan Sawit (25L + 20Kg) sistem COD. Mohon info ketersediaan stok.'
       },
       'sawit-kemarau': {
         img: '../assets/images/katalog/sawit-reguler/l.webp',
-        floatingBadge: '5 Liter & 1 Kg',
+        floatingBadge: '5L & 1Kg',
         categoryBadge: 'Kelapa Sawit',
         title: 'Paket Sawit Musim Kemarau',
-        subtitle: '1 Jerigen 5L Sawit Booster + 1 Toples 1Kg Pupuk Pasta',
+        subtitle: '5L Booster + 1Kg Pasta',
         desc: 'Bebas trek panen terus sepanjang tahun. Pupuk pasta berbentuk gel sponge yang mengikat air dan nutrisi agar tidak menguap di lahan berpasir dan gambut. Mengandung konsorsium jamur Trichoderma sp aktif dan Makro NPK Organik murni.',
         dosage: 'Campurkan 1 Liter Sawit Booster + 100g Pupuk Pasta ke dalam 100 Liter air. Siramkan 2–5 Liter per pokok sawit.',
         waText: 'Halo CS Ritel InterFarm, saya tertarik memesan Paket Sawit Musim Kemarau (5L + 1Kg) sistem COD. Mohon info pengiriman.'
       },
       'sawit-kocor': {
         img: '../assets/images/katalog/sawit-kocor/2.webp',
-        floatingBadge: 'Cukup 2 Hektar',
+        floatingBadge: '2 Hektar',
         categoryBadge: 'Kelapa Sawit',
-        title: 'Paket Biang Kocor Sawit (2 Ha)',
-        subtitle: '1 Jerigen 1L Biang Kocor + 1 Toples 1Kg Pelarut NPK',
+        title: 'Biang Kocor Sawit 2 Ha',
+        subtitle: '1L Kocor + 1Kg Pelarut',
         desc: 'Sangat ramah ongkos kirim ke luar pulau Jawa. Dosis super pekat untuk 2 hektar kebun sawit (~280 pokok pohon). Memaksimalkan serapan hara di zona perakaran aktif dan memperbaiki pH tanah masam secara biologis.',
         dosage: 'Campur 1 Jerigen Biang Kocor + 1 Toples Pelarut NPK ke Drum 400 Liter Air. Dosis: 1 Botol 1,5L untuk 1 pohon sawit.',
         waText: 'Halo CS Ritel InterFarm, saya tertarik memesan Paket Biang Kocor Sawit (2 Ha) sistem COD. Mohon info pemesanan.'
       },
       'kopi-5l': {
         img: '../assets/images/katalog/kopi/1.webp',
-        floatingBadge: 'Jerigen 5 Liter',
-        categoryBadge: 'Kopi & Buah',
+        floatingBadge: '5 Liter',
+        categoryBadge: 'Perkebunan & Buah',
         title: 'POC Booster Khusus KOPI',
-        subtitle: 'Ekstraksi Alami Murni (Bukan Kimia Sulapan)',
+        subtitle: 'Ekstraksi Murni Alami',
         desc: 'Mempercepat pertumbuhan vegetatif, memicu pembungaan serentak, dan pemadatan biji kopi. Mengandung Enzym, Stimulator, 14 Asam Amino Esensial, Giberelin, dan Phospat Alam 40%. Usia produktif pohon kopi menjadi jauh lebih panjang.',
         dosage: '1 Liter campur 75–100 Liter Air. Kocor piringan atau semprot batang dan daun saat pagi hari.',
         waText: 'Halo CS Ritel InterFarm, saya tertarik memesan POC Booster Kopi (5 Liter) sistem COD. Mohon info harga promo.'
       },
       'padi-guano': {
         img: '../assets/images/katalog/padi/1.webp',
-        floatingBadge: 'Basis Guano Murni',
+        floatingBadge: 'Basis Guano',
         categoryBadge: 'Padi & Pangan',
         title: 'POC Booster Padi & Pangan',
-        subtitle: '1 Liter Setara 1 Ton Pupuk Kandang',
+        subtitle: '1L = 1 Ton Pupuk Kandang',
         desc: 'Pupuk organik cair multiguna kaya nitrogen dan kalium alami basis Guano murni. Reaksi cepat siap diserap stomata daun. Memperbanyak anakan produktif, mencegah bulir hampa/gabuk, dan membuat batang padi kokoh tahan rebah.',
         dosage: 'Spray daun: 5 tutup per tangki 15L (pagi hari). Kocor lubang tanam / bedeng: 1 Liter per 100 Liter air.',
         waText: 'Halo CS Ritel InterFarm, saya tertarik memesan POC Booster Padi Guano (5L) sistem COD. Mohon info pemesanan.'
       },
       'cabe-5l': {
         img: '../assets/images/katalog/cabe/1.webp',
-        floatingBadge: 'Jerigen 5 Liter',
+        floatingBadge: '5 Liter',
         categoryBadge: 'Hortikultura & Sayur',
         title: 'POC Booster Khusus CABAI',
-        subtitle: 'Cegah Patek & Antraknosa, Buah Padat Berbobot',
+        subtitle: 'Rawit & Merah Keriting',
         desc: 'Nutrisi organik konsentrat 10.100 PPM khusus cabai rawit, merah keriting, dan cabai besar. Merangsang trubus bunga serentak, mencegah rontok bunga dan buah, mempertebal dinding buah agar tahan simpan dan tahan serangan jamur patogen/patek.',
         dosage: 'Spray daun: 3-5 tutup jerigen per tangki 16 Liter air semprot pagi hari interval 5-7 hari sekali. Kocor bedengan: 1 Liter per 100 Liter air saat fase pembungaan dan pembesaran buah.',
         waText: 'Halo CS Ritel InterFarm, saya tertarik memesan POC Booster Cabai (5 Liter) sistem COD. Mohon info harga promo dan pengiriman.'
       },
       'humat-pasta': {
         img: '../assets/images/katalog/sawit-jumbo/2.webp',
-        floatingBadge: 'Pail Jumbo 20 Kg',
+        floatingBadge: 'Pail 20 Kg',
         categoryBadge: 'Pembenah Tanah & Pupuk Pasta',
         title: 'Pupuk Pasta Bio-Humat 1N',
-        subtitle: 'Pengganti NPK Kimia & Penggembur Tanah Masam',
+        subtitle: 'Pelarut NPK & Tanah Masam',
         desc: 'Formulasi pupuk pasta organik piruvatisasi tingkat 1 dengan tekstur sponge gel. Melarutkan residu pupuk kimia keras yang memadat di tanah, mengaktifkan kembali mulut akar tanaman, menetralkan pH tanah masam, dan mengikat kelembapan air saat kemarau panjang.',
         dosage: 'Larutkan 100-200 gram pupuk pasta ke dalam 100 Liter air. Siramkan ke tanah perakaran aktif tanaman (sawit, hortikultura, perkebunan).',
         waText: 'Halo CS Ritel InterFarm, saya tertarik memesan Pupuk Pasta Bio-Humat (20 Kg) sistem COD. Mohon info pengiriman.'
