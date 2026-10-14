@@ -293,7 +293,7 @@
   <section id="katalog-section" class="py-8 sm:py-12 max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
     
     <!-- Filter Category Tabs (Horizontal Scroll on Mobile, Uniform Height & No Emojis) -->
-                        <!-- FILTER_CATEGORY_TABS_START -->
+                            <!-- FILTER_CATEGORY_TABS_START -->
     <div class="flex items-center gap-2 sm:gap-2.5 overflow-x-auto pb-3 sm:pb-4 no-scrollbar border-b border-slate-200 mb-6 sm:mb-10">
       <button class="filter-btn active h-10 px-4 sm:px-5 rounded-full text-xs sm:text-sm font-bold border border-emerald-600 bg-emerald-600 text-white transition shadow-sm shadow-emerald-600/20 whitespace-nowrap inline-flex items-center justify-center" data-category="all">
         Semua Produk
@@ -323,7 +323,33 @@
 
     <!-- Product Grid (Shopee-Style 2 Columns on Mobile: grid-cols-2) -->
     <div id="katalogGrid" class="grid grid-cols-2 gap-2.5 sm:gap-6 lg:grid-cols-3">
-                                    <!-- PRODUCT_GRID_CARDS_START -->
+                                          <!-- PRODUCT_GRID_CARDS_START -->
+
+      <!-- Product: Contoh 1 -->
+      <div onclick="openProductModal('contoh-1')" class="product-card cursor-pointer bg-white rounded-2xl sm:rounded-3xl border border-slate-200/90 overflow-hidden shadow-sm hover:border-emerald-500 hover:shadow-lg transition flex flex-col justify-between group p-2.5 sm:p-5" data-category="sawit">
+        <div>
+          <div class="relative bg-slate-50 aspect-square overflow-hidden rounded-xl sm:rounded-2xl border border-slate-100">
+            <img src="../assets/images/katalog/contoh-1/1.webp" alt="Contoh 1" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+
+
+          </div>
+          <div class="pt-2.5 sm:pt-4 space-y-1 sm:space-y-2">
+            <h3 class="text-xs sm:text-lg font-bold text-slate-900 group-hover:text-emerald-700 transition line-clamp-2 leading-tight">
+              Contoh 1
+            </h3>
+            <p class="text-[10px] sm:text-xs text-emerald-700 font-bold truncate">
+              Paket kombo 1 liter dan 1kg
+            </p>
+
+          </div>
+        </div>
+        <div class="pt-3">
+          <button type="button" class="w-full text-center py-2 sm:py-2.5 rounded-xl bg-emerald-600 group-hover:bg-emerald-700 text-white text-[10px] sm:text-xs font-black transition flex items-center justify-center gap-1 shadow-sm">
+            <i data-lucide="eye" class="w-3.5 h-3.5"></i>
+            <span>Detail & Pesan</span>
+          </button>
+        </div>
+      </div>
 
       <!-- Product: Paket Jumbo Sultan Sawit -->
       <div onclick="openProductModal('sawit-jumbo')" class="product-card cursor-pointer bg-white rounded-2xl sm:rounded-3xl border border-slate-200/90 overflow-hidden shadow-sm hover:border-emerald-500 hover:shadow-lg transition flex flex-col justify-between group p-2.5 sm:p-5" data-category="sawit">
@@ -863,8 +889,18 @@
     }
 
     // Product Database for Interactive Modal
-                        // PRODUCT_DATA_OBJECT_START
+                            // PRODUCT_DATA_OBJECT_START
     const productData = {
+      'contoh-1': {
+        img: '../assets/images/katalog/contoh-1/1.webp',
+        floatingBadge: '',
+        categoryBadge: 'Khusus Kelapa Sawit (Sawit Khusus)',
+        title: 'Contoh 1',
+        subtitle: 'Paket kombo 1 liter dan 1kg',
+        desc: 'Hemat biaya kirim dengna membeli bian 1 Liter',
+        dosage: 'cukup pakai',
+        waText: 'Halo CS Ritel InterFarm, saya tertarik memesan Contoh 1  sistem COD. Mohon info pemesanan.'
+      },
       'sawit-jumbo': {
         img: '../assets/images/katalog/sawit-jumbo/2.webp',
         floatingBadge: '15 - 20 Ha',
