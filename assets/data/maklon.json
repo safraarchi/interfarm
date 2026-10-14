@@ -1,0 +1,119 @@
+[
+  {
+    "id": "bio-trico",
+    "img": "../assets/images/maklon/bio-trico.webp",
+    "category": "Agensi Hayati F1",
+    "title": "BIO TRICO + Anti Jamur Hayati",
+    "desc": "Konsorsium mikroba bio-antagonis murni hasil isolasi laboratorium InterFarm.",
+    "spec": "Kandungan: Trichoderma sp 9,00 x 10⁹ CFU/g, Bakteri Penambat Nitrogen (Azotobacter), Bakteri Pelarut Phospat (Bacillus), dan mikroba pelindung tular tanah. Efektif mengendalikan jamur Ganoderma, Fusarium, dan busuk akar.",
+    "waText": "Halo Tim Maklon InterFarm, saya tertarik konsultasi maklon formula Bio Trico Hayati F1."
+  },
+  {
+    "id": "mkp-cair",
+    "img": "../assets/images/maklon/mkp-cair.webp",
+    "category": "Pupuk Buah F1",
+    "title": "MKP CAIR PUPUK BUAH",
+    "desc": "Formulasi ionik fosfat dan kalium pekat murni siap serap tanpa endapan residu.",
+    "spec": "Kandungan: P2O5 60% dan K2O 35% larut air 100%. Memacu pembungaan serentak, mencegah kerontokan putik, memperbesar buah, dan meningkatkan rendemen bobot panen.",
+    "waText": "Halo Tim Maklon InterFarm, saya tertarik konsultasi maklon formula MKP Cair Pupuk Buah F1."
+  },
+  {
+    "id": "pembasmi-jamur",
+    "img": "../assets/images/maklon/pembasmi-jamur-f1.webp",
+    "category": "Fungisida Hayati",
+    "title": "Bahan Baku Pembasmi Jamur F1",
+    "desc": "Formula bio-fungisida sistemik hayati aktif perusak dinding sel cendawan patogen.",
+    "spec": "Kandungan: Trichoderma harzianum, Gliocladium virens, dan Pseudomonas fluorescens murni. Sangat ampuh memberantas Ganoderma sawit, Phytophthora durian/kakao, dan jamur akar putih.",
+    "waText": "Halo Tim Maklon InterFarm, saya tertarik konsultasi maklon formula Pembasmi Jamur Hayati F1."
+  },
+  {
+    "id": "essen-poc",
+    "img": "../assets/images/maklon/essen-poc-f1.webp",
+    "category": "Biang POC F1",
+    "title": "ESSEN POC Pupuk Organik Cair",
+    "desc": "Biang nutrisi C-Organik konsentrat tinggi untuk bahan baku pupuk cair berbagai tanaman.",
+    "spec": "Kandungan: C-Organik murni > 15%, Asam Humat 10.100 PPM, Asam Fulvat, trace elements makro-mikro seimbang. Siap diencerkan hingga rasio 1:100 tanpa mengurangi performa nutrisi.",
+    "waText": "Halo Tim Maklon InterFarm, saya tertarik konsultasi maklon biang Essen POC Pupuk Organik Cair F1."
+  },
+  {
+    "id": "essen-phc",
+    "img": "../assets/images/maklon/essen-phc-hayati.webp",
+    "category": "Pupuk Hayati Cair",
+    "title": "ESSEN PHC Pupuk Hayati Cair",
+    "desc": "Inokulan bakteri endofit dan rhizosfer penambat N dan pelarut hara tanah masam.",
+    "spec": "Kandungan: Konsorsium Azospirillum, Azotobacter, Bacillus megaterium, dan mikroba penetral keasaman tanah biologis. Menekan kebutuhan pupuk kimia urea & SP-36 hingga 50%.",
+    "waText": "Halo Tim Maklon InterFarm, saya tertarik konsultasi maklon biang Essen PHC Pupuk Hayati Cair F1."
+  },
+  {
+    "id": "isolat-probiotik",
+    "img": "../assets/images/maklon/isolat-probiotik-ternak.webp",
+    "category": "Peternakan & Ikan",
+    "title": "ISOLAT Probiotik Ternak & Ikan",
+    "desc": "Kultur murni mikroba fermentatif probiotik untuk suplemen pakan dan sanitasi kolam/kandang.",
+    "spec": "Kandungan: Lactobacillus acidophilus, Saccharomyces cerevisiae, Bacillus subtilis. Meningkatkan rasio efisiensi pakan (FCR), menekan mortalitas bibit ikan, dan mengeliminasi bau amonia kotoran kandang.",
+    "waText": "Halo Tim Maklon InterFarm, saya tertarik konsultasi maklon formula Isolat Probiotik Ternak & Ikan."
+  },
+  {
+    "id": "asam-humat",
+    "img": "../assets/images/maklon/asam-humat-pembenah-tanah.webp",
+    "category": "Pembenah Tanah",
+    "title": "ASAM HUMAT Pembenah Tanah F1",
+    "desc": "Ekstrak murni leonardite bermutu tinggi untuk pemulih struktur biologi dan kimia tanah.",
+    "spec": "Kandungan: Humic Acid murni 65%-80%, CEC / KTK tinggi, pH larutan 8.5 - 9.5. Menggemburkan tanah keras, mencegah pencucian (leaching) pupuk kimia oleh hujan, dan merangsang perakaran baru.",
+    "waText": "Halo Tim Maklon InterFarm, saya tertarik konsultasi maklon formula Asam Humat Pembenah Tanah F1."
+  },
+  {
+    "id": "phospat-cair",
+    "img": "../assets/images/maklon/phospat-cair-65.webp",
+    "category": "Unsur P Alami",
+    "title": "PHOSPAT P2O5 Cair Alami 65%",
+    "desc": "Ekstraksi batu fosfat alam murni menjadi bentuk cair ionik berenergi tinggi.",
+    "spec": "Kandungan: P2O5 cair terlarut 65%. Bentuk ionik non-endapan untuk memacu pembentukan perakaran awal pada masa vegetatif dan merangsang anakan produktif.",
+    "waText": "Halo Tim Maklon InterFarm, saya tertarik konsultasi maklon Phospat P2O5 Cair Alami 65% F1."
+  },
+  {
+    "id": "pestisida-nabati",
+    "img": "../assets/images/maklon/pestisida-nabati-zpt.webp",
+    "category": "Insektisida Nabati",
+    "title": "Pestisida Plus Perekat & ZPT",
+    "desc": "Bahan aktif nabati botani multi-aksi dengan surfaktan perekat anti hujan.",
+    "spec": "Kandungan: Eugenol minyak cengkeh, Azadirachtin mimba, Citronellal, surfaktan perekat perata penembus, plus stimulan ZPT pemulih sel klorofil daun. Ampuh basmi kutu kebul, ulat, dan trip.",
+    "waText": "Halo Tim Maklon InterFarm, saya tertarik konsultasi maklon Pestisida Nabati Plus Perekat & ZPT F1."
+  },
+  {
+    "id": "potasium-klorida",
+    "img": "../assets/images/maklon/potasium-klorida-kcl.webp",
+    "category": "Kalium Ionik",
+    "title": "Potasium Klorida KCL Cair",
+    "desc": "Kalium konsentrasi tinggi formula cair bebas klor berlebih untuk pemadatan panen.",
+    "spec": "Kandungan: K2O 60%, Mg 3%, Zn 1.4%, Fe 1.1%, Auxin 2%, Silica 10%, Phospate 14%, Cu 45%, Mn 16%, S 5.3%, Boron 12%. Merangsang pengisian bulir padi dan pemadatan tandan sawit.",
+    "waText": "Halo Tim Maklon InterFarm, saya tertarik konsultasi maklon Potasium Klorida KCL Cair F1."
+  },
+  {
+    "id": "amino-booster",
+    "img": "../assets/images/maklon/amino-booster-zpt.webp",
+    "category": "14 Asam Amino",
+    "title": "Amino Booster Plus ZPT F1",
+    "desc": "Hidrolisat protein hewani laut dengan 14 spektrum rantai peptida dan fitohormon aktif.",
+    "spec": "Kandungan: 14 Asam Amino Esensial terbebas, Asam Glutamat, Prolin, Glisin, plus Giberelin, Auxin, dan Sitokinin alami. Meregenerasi sel tanaman stres kekeringan / keracunan herbisida.",
+    "waText": "Halo Tim Maklon InterFarm, saya tertarik konsultasi maklon formula Amino Booster Plus ZPT F1."
+  },
+  {
+    "id": "humat-pasta",
+    "img": "../assets/images/maklon/humat-pasta-npk.webp",
+    "category": "Pengganti NPK",
+    "title": "Humat Pasta Pupuk Makro F1",
+    "desc": "Tekstur pasta kental bio-kimia organik pengganti pupuk kimia tabur sintetis.",
+    "spec": "Kandungan: Unsur Makro N 16%, P 12%, K 10%, Asam Humat 15%, Trichoderma sp aktif. Dosis 1 gram / liter air. Mampu menghemat biaya pemupukan kimia 70% hingga 100%.",
+    "waText": "Halo Tim Maklon InterFarm, saya tertarik konsultasi maklon formula Humat Pasta Pupuk Makro F1."
+  },
+  {
+    "id": "bio-soil",
+    "img": "../assets/images/maklon/bio-soil-dolomit.webp",
+    "category": "3-in-1 Bio Soil",
+    "title": "Bio Soil Pengganti Dolomit",
+    "desc": "Kalsium aktif cair plus inokulan agens hayati pencegah penyakit layu dan rebah batang.",
+    "spec": "Kandungan: Kalsium terlarut tinggi, Trichoderma sp, dan bakteri perakaran Bacillus. Mengoreksi pH tanah masam secara instan tanpa perlu menabur berton-ton kapur dolomit biasa.",
+    "waText": "Halo Tim Maklon InterFarm, saya tertarik konsultasi maklon formula Bio Soil Pengganti Dolomit."
+  }
+]

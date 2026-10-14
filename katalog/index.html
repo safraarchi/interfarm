@@ -185,7 +185,7 @@
   </section>
 
   <!-- Filter Tabs & Product Section (Shopee-Style 2 Columns on Mobile) -->
-  <section class="py-8 sm:py-12 max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+  <section id="katalog-section" class="py-8 sm:py-12 max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
     
     <!-- Filter Category Tabs (Horizontal Scroll on Mobile, Uniform Height & No Emojis) -->
                         <!-- FILTER_CATEGORY_TABS_START -->
@@ -217,7 +217,7 @@
     <!-- FILTER_CATEGORY_TABS_END -->
 
     <!-- Product Grid (Shopee-Style 2 Columns on Mobile: grid-cols-2) -->
-    <div class="grid grid-cols-2 gap-2.5 sm:gap-6 lg:grid-cols-3">
+    <div id="katalogGrid" class="grid grid-cols-2 gap-2.5 sm:gap-6 lg:grid-cols-3">
                                     <!-- PRODUCT_GRID_CARDS_START -->
 
       <!-- Product: Paket Jumbo Sultan Sawit -->
@@ -458,6 +458,36 @@
         </a>
       </div>
 
+    </div>
+
+    <!-- Automatic Catalog Pagination -->
+    <div id="katalogPaginationWrapper" class="hidden mt-8 sm:mt-12 pt-6 border-t border-slate-200/80">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <!-- Pagination Info Counter -->
+        <p id="katalogPaginationInfo" class="text-xs text-slate-500 font-medium order-2 sm:order-1 text-center sm:text-left">
+          Menampilkan <span id="katalogPageStart" class="font-bold text-slate-800">1</span> - <span id="katalogPageEnd" class="font-bold text-slate-800">6</span> dari <span id="katalogPageTotal" class="font-bold text-slate-800">7</span> produk
+        </p>
+
+        <!-- Pagination Controls -->
+        <nav aria-label="Navigasi Halaman Katalog" class="inline-flex items-center gap-1.5 order-1 sm:order-2">
+          <!-- Prev Button -->
+          <button id="katalogPrevBtn" aria-label="Halaman Sebelumnya" class="h-9 px-3 rounded-xl border border-slate-200 bg-white text-slate-700 hover:border-emerald-400 hover:text-emerald-700 disabled:opacity-40 disabled:pointer-events-none text-xs font-bold transition flex items-center gap-1 shadow-sm">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+            <span class="hidden sm:inline">Sebelumnya</span>
+          </button>
+
+          <!-- Dynamic Number Buttons Container -->
+          <div id="katalogPageNumbers" class="flex items-center gap-1.5">
+            <!-- Dynamic page numbers inserted via JS -->
+          </div>
+
+          <!-- Next Button -->
+          <button id="katalogNextBtn" aria-label="Halaman Berikutnya" class="h-9 px-3 rounded-xl border border-slate-200 bg-white text-slate-700 hover:border-emerald-400 hover:text-emerald-700 disabled:opacity-40 disabled:pointer-events-none text-xs font-bold transition flex items-center gap-1 shadow-sm">
+            <span class="hidden sm:inline">Berikutnya</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </button>
+        </nav>
+      </div>
     </div>
   </section>
 
@@ -845,14 +875,138 @@
       }
     });
 
-    // Filter Buttons logic (supports multi-category space-separated tags)
-    const filterBtns = document.querySelectorAll('.filter-btn');
-    const productCards = document.querySelectorAll('.product-card');
-    const emptyCategory = document.getElementById('emptyCategory');
+    // ================= AUTOMATIC CATALOG PAGINATION & FILTER LOGIC =================
+    const ITEMS_PER_PAGE = 6;
+    let currentCatalogPage = 1;
+    let activeCatalogCategory = 'all';
 
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const productCards = Array.from(document.querySelectorAll('.product-card'));
+    const emptyCategory = document.getElementById('emptyCategory');
+    const paginationWrapper = document.getElementById('katalogPaginationWrapper');
+    const pageNumbersContainer = document.getElementById('katalogPageNumbers');
+    const prevBtn = document.getElementById('katalogPrevBtn');
+    const nextBtn = document.getElementById('katalogNextBtn');
+    const catalogSection = document.getElementById('katalog-section');
+
+    function getFilteredCards() {
+      if (activeCatalogCategory === 'all') {
+        return productCards;
+      }
+      return productCards.filter(card => {
+        const categories = (card.getAttribute('data-category') || '').split(' ');
+        return categories.includes(activeCatalogCategory);
+      });
+    }
+
+    function renderCatalogPagination() {
+      const filtered = getFilteredCards();
+      const totalItems = filtered.length;
+
+      // Handle Empty State
+      if (totalItems === 0) {
+        productCards.forEach(c => c.style.display = 'none');
+        if (emptyCategory) emptyCategory.classList.remove('hidden');
+        if (paginationWrapper) paginationWrapper.classList.add('hidden');
+        return;
+      }
+
+      if (emptyCategory) emptyCategory.classList.add('hidden');
+
+      const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
+
+      // Bound current page
+      if (currentCatalogPage > totalPages) currentCatalogPage = totalPages;
+      if (currentCatalogPage < 1) currentCatalogPage = 1;
+
+      // Dynamic automatic display check: if items <= ITEMS_PER_PAGE, hide pagination controls
+      if (totalItems <= ITEMS_PER_PAGE) {
+        if (paginationWrapper) paginationWrapper.classList.add('hidden');
+        filtered.forEach(c => c.style.display = 'flex');
+        productCards.filter(c => !filtered.includes(c)).forEach(c => c.style.display = 'none');
+        return;
+      }
+
+      // If items > ITEMS_PER_PAGE, show pagination controls
+      if (paginationWrapper) paginationWrapper.classList.remove('hidden');
+
+      // Calculate slice indices
+      const startIndex = (currentCatalogPage - 1) * ITEMS_PER_PAGE;
+      const endIndex = Math.min(startIndex + ITEMS_PER_PAGE, totalItems);
+
+      // Display cards for current page only
+      productCards.forEach(card => card.style.display = 'none');
+      for (let i = startIndex; i < endIndex; i++) {
+        if (filtered[i]) filtered[i].style.display = 'flex';
+      }
+
+      // Update info counter
+      const pageStartEl = document.getElementById('katalogPageStart');
+      const pageEndEl = document.getElementById('katalogPageEnd');
+      const pageTotalEl = document.getElementById('katalogPageTotal');
+      if (pageStartEl) pageStartEl.innerText = (startIndex + 1).toString();
+      if (pageEndEl) pageEndEl.innerText = endIndex.toString();
+      if (pageTotalEl) pageTotalEl.innerText = totalItems.toString();
+
+      // Update Prev / Next state
+      if (prevBtn) prevBtn.disabled = (currentCatalogPage === 1);
+      if (nextBtn) nextBtn.disabled = (currentCatalogPage === totalPages);
+
+      // Render Numbered Page Buttons
+      if (pageNumbersContainer) {
+        pageNumbersContainer.innerHTML = '';
+        for (let p = 1; p <= totalPages; p++) {
+          const btn = document.createElement('button');
+          btn.setAttribute('type', 'button');
+          btn.setAttribute('aria-label', `Halaman ${p}`);
+          btn.innerText = p.toString();
+          if (p === currentCatalogPage) {
+            btn.className = 'w-9 h-9 rounded-xl bg-emerald-600 text-white font-black text-xs shadow-sm shadow-emerald-600/30 border border-emerald-600 flex items-center justify-center';
+          } else {
+            btn.className = 'w-9 h-9 rounded-xl bg-white text-slate-700 hover:text-emerald-700 hover:border-emerald-300 font-bold text-xs border border-slate-200 flex items-center justify-center transition shadow-sm';
+            btn.addEventListener('click', () => {
+              goToCatalogPage(p);
+            });
+          }
+          pageNumbersContainer.appendChild(btn);
+        }
+      }
+    }
+
+    function goToCatalogPage(p) {
+      currentCatalogPage = p;
+      renderCatalogPagination();
+      // Smooth scroll back to top of catalog section
+      if (catalogSection) {
+        const topPos = catalogSection.getBoundingClientRect().top + window.pageYOffset - 80;
+        window.scrollTo({ top: topPos, behavior: 'smooth' });
+      }
+    }
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', () => {
+        if (currentCatalogPage > 1) {
+          goToCatalogPage(currentCatalogPage - 1);
+        }
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', () => {
+        const filtered = getFilteredCards();
+        const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE);
+        if (currentCatalogPage < totalPages) {
+          goToCatalogPage(currentCatalogPage + 1);
+        }
+      });
+    }
+
+    // Filter Buttons logic
     filterBtns.forEach(btn => {
       btn.addEventListener('click', () => {
         const cat = btn.getAttribute('data-category');
+        activeCatalogCategory = cat;
+        currentCatalogPage = 1; // Reset to page 1 on filter
 
         filterBtns.forEach(b => {
           b.classList.remove('active', 'bg-emerald-600', 'text-white', 'border-emerald-600', 'shadow-sm', 'shadow-emerald-600/20');
@@ -866,26 +1020,12 @@
         btn.classList.add('active', 'bg-emerald-600', 'text-white', 'border-emerald-600', 'shadow-sm', 'shadow-emerald-600/20');
         btn.classList.remove('bg-white', 'bg-emerald-50/60', 'text-slate-700', 'text-emerald-900', 'border-slate-200', 'border-emerald-300');
 
-        let visibleCount = 0;
-        productCards.forEach(card => {
-          const categories = (card.getAttribute('data-category') || '').split(' ');
-          if (cat === 'all' || categories.includes(cat)) {
-            card.style.display = 'flex';
-            visibleCount++;
-          } else {
-            card.style.display = 'none';
-          }
-        });
-
-        if (emptyCategory) {
-          if (visibleCount === 0) {
-            emptyCategory.classList.remove('hidden');
-          } else {
-            emptyCategory.classList.add('hidden');
-          }
-        }
+        renderCatalogPagination();
       });
     });
+
+    // Initialize pagination on load
+    renderCatalogPagination();
   </script>
 </body>
 </html>
