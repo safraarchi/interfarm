@@ -1,0 +1,27 @@
+[
+  {
+    "id": "all",
+    "name": "Semua Produk"
+  },
+  {
+    "id": "sawit",
+    "name": "Khusus Kelapa Sawit",
+    "isSpecial": true
+  },
+  {
+    "id": "pangan",
+    "name": "Padi & Pangan"
+  },
+  {
+    "id": "hortikultura",
+    "name": "Hortikultura & Sayur"
+  },
+  {
+    "id": "perkebunan",
+    "name": "Perkebunan & Buah"
+  },
+  {
+    "id": "pembenah",
+    "name": "Pembenah Tanah & Pasta"
+  }
+]
