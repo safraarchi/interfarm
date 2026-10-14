@@ -9,6 +9,10 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
+      <image:loc>https://interfarm.my.id/assets/images/seo/og-banner.jpg</image:loc>
+      <image:title>InterFarm Indonesia - Pupuk Sawit Booster dan Bio Humat Pasta</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://interfarm.my.id/assets/images/logo/logo.png</image:loc>
       <image:title>InterFarm Indonesia - Agrotech &amp; Pupuk Organik Presisi 10.100 PPM</image:title>
     </image:image>
