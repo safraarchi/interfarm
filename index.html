@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InterFarm | Integrated Farming - Inovasi Agrotech & Bio-Kimia Pertanian Presisi</title>
+  <meta name="description" content="InterFarm (Integrated Farming): Pusat riset agrotech, bio-kimia, dan laboratorium pupuk organik murni 10.100 PPM dengan kelarutan 1N. Sedia pupuk sawit anti trek, kopi, padi, serta layanan maklon B2B.">
+  <link rel="icon" type="image/webp" href="./assets/images/logo/logo.webp">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/logo/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/logo/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logo/apple-touch-icon.png">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="InterFarm | Integrated Farming - Agrotech & Bio-Kimia Pertanian Presisi">
+  <meta property="og:description" content="Panen Melimpah, Bebas Trek, Pangkas Biaya Pupuk Kimia 50% - 75% dengan Formula Murni 10.100 PPM.">
+  <meta property="og:image" content="./assets/images/logo/logo.webp">
+  <meta property="og:type" content="website">
+
+  <!-- Tailwind CSS & Lucide Icons -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          },
+          colors: {
+            forest: {
+              950: '#011F18',
+              900: '#022C22',
+              850: '#04382C',
+              800: '#064E3B',
+              700: '#065F46',
+            },
+            brand: {
+              50: '#ECFDF5',
+              100: '#D1FAE5',
+              200: '#A7F3D0',
+              500: '#10B981',
+              600: '#059669',
+              700: '#047857',
+              800: '#065F46',
+              900: '#064E3B'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-[#F8FAF9] text-slate-800 antialiased font-sans selection:bg-emerald-500 selection:text-white">
+
+  <!-- Top Micro Notice (Ultra-Slim on Mobile) -->
+  <div class="bg-forest-900 text-emerald-100 py-1.5 px-3 sm:py-2 sm:px-4 border-b border-forest-800">
+    <!-- Mobile: Ultra-Slim Single Line -->
+    <div class="sm:hidden flex items-center justify-between text-[11px] font-semibold text-emerald-100">
+      <span class="flex items-center gap-1.5 truncate">
+        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span class="truncate">10.100 PPM Murni Pabrik • COD Se-Indonesia</span>
+      </span>
+      <a href="https://api.whatsapp.com/send?phone=6285815768319&text=Halo%20InterFarm,%20saya%20mau%20konsultasi%20produk%20pertanian" target="_blank" class="text-emerald-300 font-bold shrink-0 ml-2 hover:text-white flex items-center gap-1">
+        <svg class="w-3.5 h-3.5 fill-current shrink-0" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 012.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 01-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.19.53-1.06 1.04-1.46 1.1-.39.06-.89.09-2.88-.7-2.39-.96-3.92-3.4-4.04-3.56-.12-.16-.98-1.31-.98-2.5 0-1.19.62-1.78.84-2.02.22-.24.48-.3.64-.3.16 0 .32 0 .46.01.15.01.35-.06.54.41.2.49.69 1.69.75 1.82.06.12.1.27.02.43-.08.16-.12.27-.24.41-.12.14-.26.32-.37.43-.12.12-.25.25-.11.49.14.24.63 1.04 1.35 1.68.93.83 1.71 1.09 1.95 1.21.24.12.39.1.53-.06.14-.16.61-.71.77-.96.16-.24.33-.2.55-.12.22.08 1.42.67 1.66.79.24.12.41.18.47.28.06.1.06.59-.13 1.12z"/></svg> CS: 0858-1576-8319
+      </a>
+    </div>
+
+    <!-- Desktop: Full Notice Bar -->
+    <div class="hidden sm:flex max-w-7xl mx-auto flex-row justify-between items-center gap-2 text-xs">
+      <div class="flex items-center gap-2 text-left">
+        <span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40">
+          PRODUSEN RESMI
+        </span>
+        <span class="text-emerald-100/90">Pabrik Langsung ke Petani & Kebun | Konsentrat Murni 10.100 PPM Non-Oplosan</span>
+      </div>
+      <div class="flex items-center gap-3 text-xs">
+        <a href="https://shopee.co.id/interfarm.id" target="_blank" class="hover:text-white transition flex items-center gap-1 text-emerald-300 font-semibold">
+          <i data-lucide="shopping-bag" class="w-3.5 h-3.5"></i> Shopee Official
+        </a>
+        <span class="text-emerald-700">|</span>
+        <a href="https://api.whatsapp.com/send?phone=6285815768319&text=Halo%20InterFarm,%20saya%20mau%20konsultasi%20produk%20pertanian" target="_blank" class="hover:text-white transition flex items-center gap-1 font-semibold text-emerald-300">
+          <svg class="w-3.5 h-3.5 fill-current shrink-0" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 012.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 01-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.19.53-1.06 1.04-1.46 1.1-.39.06-.89.09-2.88-.7-2.39-.96-3.92-3.4-4.04-3.56-.12-.16-.98-1.31-.98-2.5 0-1.19.62-1.78.84-2.02.22-.24.48-.3.64-.3.16 0 .32 0 .46.01.15.01.35-.06.54.41.2.49.69 1.69.75 1.82.06.12.1.27.02.43-.08.16-.12.27-.24.41-.12.14-.26.32-.37.43-.12.12-.25.25-.11.49.14.24.63 1.04 1.35 1.68.93.83 1.71 1.09 1.95 1.21.24.12.39.1.53-.06.14-.16.61-.71.77-.96.16-.24.33-.2.55-.12.22.08 1.42.67 1.66.79.24.12.41.18.47.28.06.1.06.59-.13 1.12z"/></svg> CS Ritel: 0858-1576-8319
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modern Floating Header -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-emerald-100 shadow-sm transition">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16 sm:h-18 py-3">
+        <!-- Brand Logo -->
+        <a href="./index.html" class="flex items-center gap-2.5 sm:gap-3 group">
+          <img src="./assets/images/logo/logo.webp" alt="Logo InterFarm" class="h-10 w-10 sm:h-11 sm:w-11 object-contain rounded-full group-hover:scale-105 transition drop-shadow-sm">
+          <div>
+            <span class="text-xl sm:text-2xl font-black tracking-tight text-slate-900">Inter<span class="text-emerald-600">Farm</span></span>
+            <span class="block text-[9px] sm:text-[10px] font-bold uppercase tracking-widest text-emerald-700 -mt-1">Precision Agrotech</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden md:flex items-center gap-7 font-semibold text-sm text-slate-600">
+          <a href="./index.html" class="text-emerald-600 font-bold flex items-center gap-1.5 pb-0.5 border-b-2 border-emerald-600">
+            <span>Beranda</span>
+          </a>
+          <a href="./about/index.html" class="hover:text-emerald-600 transition">Tentang Kami</a>
+          <a href="./katalog/index.html" class="hover:text-emerald-600 transition">Katalog Produk</a>
+          <a href="./maklon/index.html" class="hover:text-emerald-600 transition flex items-center gap-1.5">
+            <span>Layanan Maklon</span>
+            <span class="text-[10px] bg-emerald-100 text-emerald-800 border border-emerald-200 px-2 py-0.5 rounded-full font-bold">B2B</span>
+          </a>
+          <a href="./kontak/index.html" class="hover:text-emerald-600 transition">Kontak</a>
+        </nav>
+
+        <!-- CTA Buttons -->
+        <div class="hidden lg:flex items-center gap-3">
+          <a href="https://shopee.co.id/interfarm.id" target="_blank" class="px-4 py-2.5 rounded-xl text-xs font-bold text-slate-700 bg-slate-100 hover:bg-emerald-50 hover:text-emerald-700 border border-slate-200 transition flex items-center gap-1.5">
+            <i data-lucide="shopping-cart" class="w-3.5 h-3.5 text-emerald-600"></i>
+            <span>Shopee</span>
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=6285815768319&text=Halo%20InterFarm,%20saya%20ingin%20konsultasi%20produk%20kebun" target="_blank" class="px-5 py-2.5 rounded-xl text-xs font-black bg-emerald-600 text-white hover:bg-emerald-700 transition shadow-lg shadow-emerald-600/20 flex items-center gap-2">
+            <svg class="w-4 h-4 fill-white shrink-0" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 012.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 01-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.19.53-1.06 1.04-1.46 1.1-.39.06-.89.09-2.88-.7-2.39-.96-3.92-3.4-4.04-3.56-.12-.16-.98-1.31-.98-2.5 0-1.19.62-1.78.84-2.02.22-.24.48-.3.64-.3.16 0 .32 0 .46.01.15.01.35-.06.54.41.2.49.69 1.69.75 1.82.06.12.1.27.02.43-.08.16-.12.27-.24.41-.12.14-.26.32-.37.43-.12.12-.25.25-.11.49.14.24.63 1.04 1.35 1.68.93.83 1.71 1.09 1.95 1.21.24.12.39.1.53-.06.14-.16.61-.71.77-.96.16-.24.33-.2.55-.12.22.08 1.42.67 1.66.79.24.12.41.18.47.28.06.1.06.59-.13 1.12z"/></svg>
+            <span>Konsultasi WA</span>
+          </a>
+        </div>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobileMenuBtn" aria-label="Menu" class="md:hidden p-2 rounded-xl bg-slate-100 text-slate-700 border border-slate-200 hover:text-emerald-600 focus:outline-none">
+          <i data-lucide="menu" class="w-5 h-5"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Navigation -->
+    <div id="mobileDrawer" class="hidden md:hidden bg-white border-b border-emerald-100 px-4 pt-3 pb-6 space-y-3 shadow-lg">
+      <a href="./index.html" class="block py-2 text-emerald-700 font-bold border-l-4 border-emerald-600 pl-3 bg-emerald-50 rounded-r-xl text-sm">
+        Beranda
+      </a>
+      <a href="./about/index.html" class="block py-2 text-slate-700 font-semibold hover:text-emerald-600 pl-3 text-sm">
+        Tentang Kami
+      </a>
+      <a href="./katalog/index.html" class="block py-2 text-slate-700 font-semibold hover:text-emerald-600 pl-3 text-sm">
+        Katalog Produk Jadi Ritel
+      </a>
+      <a href="./maklon/index.html" class="block py-2 text-slate-700 font-semibold hover:text-emerald-600 pl-3 text-sm flex items-center justify-between">
+        <span>Layanan Maklon & Bahan F1</span>
+        <span class="text-xs bg-emerald-200 text-emerald-800 border border-emerald-300 px-2 py-0.5 rounded-full font-bold">B2B</span>
+      </a>
+      <a href="./kontak/index.html" class="block py-2 text-slate-700 font-semibold hover:text-emerald-600 pl-3 text-sm">
+        Hubungi Kami
+      </a>
+      <a href="https://shopee.co.id/interfarm.id" target="_blank" class="block py-2 text-emerald-700 font-semibold pl-3 text-sm flex items-center gap-1.5">
+        <i data-lucide="shopping-bag" class="w-4 h-4"></i>
+        <span>Shopee Official Store</span>
+      </a>
+
+      <div class="pt-3 border-t border-slate-200 flex flex-col gap-2.5">
+        <a href="https://api.whatsapp.com/send?phone=6285815768319&text=Halo%20InterFarm,%20saya%20mau%20konsultasi%20produk%20jadi" target="_blank" class="w-full text-center py-2.5 rounded-xl bg-emerald-600 text-white font-black text-xs flex items-center justify-center gap-2 shadow-lg shadow-emerald-600/20">
+          <svg class="w-4 h-4 fill-white shrink-0" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 012.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 01-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.19.53-1.06 1.04-1.46 1.1-.39.06-.89.09-2.88-.7-2.39-.96-3.92-3.4-4.04-3.56-.12-.16-.98-1.31-.98-2.5 0-1.19.62-1.78.84-2.02.22-.24.48-.3.64-.3.16 0 .32 0 .46.01.15.01.35-.06.54.41.2.49.69 1.69.75 1.82.06.12.1.27.02.43-.08.16-.12.27-.24.41-.12.14-.26.32-.37.43-.12.12-.25.25-.11.49.14.24.63 1.04 1.35 1.68.93.83 1.71 1.09 1.95 1.21.24.12.39.1.53-.06.14-.16.61-.71.77-.96.16-.24.33-.2.55-.12.22.08 1.42.67 1.66.79.24.12.41.18.47.28.06.1.06.59-.13 1.12z"/></svg>
+          <span>Chat CS Ritel: 0858-1576-8319</span>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=6285697337041&text=Halo%20InterFarm,%20saya%20mau%20konsultasi%20maklon%20b2b" target="_blank" class="w-full text-center py-2.5 rounded-xl bg-slate-100 hover:bg-emerald-50 text-slate-800 border border-slate-200 font-bold text-xs flex items-center justify-center gap-2">
+          <i data-lucide="factory" class="w-4 h-4 text-emerald-700"></i> Hubungi Tim Maklon: 0856-9733-7041
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section (Clean Green Theme) -->
+  <section class="relative bg-gradient-to-b from-emerald-50/70 via-white to-slate-50 text-slate-900 overflow-hidden py-10 lg:py-20 border-b border-emerald-100/60">
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        
+        <!-- Left Hero Content -->
+        <div class="lg:col-span-7 space-y-5 text-center lg:text-left">
+          
+          <!-- Badge Pill -->
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-200 text-xs font-bold tracking-wide shadow-sm">
+            <span class="w-2 h-2 rounded-full bg-emerald-600 animate-pulse"></span>
+            <span>Pusat Inovasi Agrotech & Bio-Kimia Pertanian Presisi</span>
+          </div>
+
+          <!-- Hero Headline -->
+          <h1 class="text-2xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight text-slate-900">
+            Panen Melimpah & Bebas Trek, <br>
+            <span class="text-emerald-700">Pangkas Biaya Pupuk Kimia</span> <br>
+            Hingga 50% - 75%!
+          </h1>
+
+          <!-- Hero Subtitle -->
+          <p class="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+            Pupuk organik konsentrat murni <strong class="text-slate-900">10.100 PPM</strong> berteknologi <strong class="text-slate-900">kelarutan 1N ionik</strong>. Langsung diserap mulut akar seketika tanpa oplosan air, menyuburkan tanah bantat, dan menjaga produksi buah tetap stabil sepanjang tahun.
+          </p>
+
+          <!-- Thumb-Friendly CTA Action Buttons -->
+          <div class="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start pt-1">
+            <a href="./katalog/index.html" class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-black bg-emerald-600 hover:bg-emerald-700 text-white transition shadow-xl shadow-emerald-600/25 text-sm sm:text-base">
+              <i data-lucide="package" class="w-5 h-5"></i>
+              <span>Lihat Katalog Produk Ritel</span>
+            </a>
+            <a href="./maklon/index.html" class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-bold bg-white hover:bg-emerald-50 text-slate-800 border border-emerald-200 transition text-sm sm:text-base shadow-sm">
+              <i data-lucide="layers" class="w-5 h-5 text-emerald-600"></i>
+              <span>Layanan Maklon Merek Sendiri</span>
+            </a>
+          </div>
+
+          <!-- 4-Stat Metric Tiles -->
+          <div class="pt-3 grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-3 text-left">
+            <div class="p-3 sm:p-3.5 rounded-2xl bg-white border border-emerald-100 shadow-sm">
+              <p class="text-lg sm:text-2xl font-black text-emerald-700">10.100 <span class="text-xs text-slate-500">PPM</span></p>
+              <p class="text-[10px] sm:text-[11px] text-slate-500 mt-0.5">Kepekatan Murni</p>
+            </div>
+            <div class="p-3 sm:p-3.5 rounded-2xl bg-white border border-emerald-100 shadow-sm">
+              <p class="text-lg sm:text-2xl font-black text-slate-900">1N <span class="text-xs text-slate-500">Ionik</span></p>
+              <p class="text-[10px] sm:text-[11px] text-slate-500 mt-0.5">Kelarutan Tertinggi</p>
+            </div>
+            <div class="p-3 sm:p-3.5 rounded-2xl bg-white border border-emerald-100 shadow-sm">
+              <p class="text-lg sm:text-2xl font-black text-emerald-700">50% - 75%</p>
+              <p class="text-[10px] sm:text-[11px] text-slate-500 mt-0.5">Hemat Pupuk Kimia</p>
+            </div>
+            <div class="p-3 sm:p-3.5 rounded-2xl bg-white border border-emerald-100 shadow-sm">
+              <p class="text-lg sm:text-2xl font-black text-slate-900">100% COD</p>
+              <p class="text-[10px] sm:text-[11px] text-slate-500 mt-0.5">Bayar di Tempat</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Hero Visual Card -->
+        <div class="lg:col-span-5 flex justify-center">
+          <div class="relative w-full max-w-xs sm:max-w-md bg-white p-3 rounded-3xl border border-emerald-100 shadow-xl">
+            <div class="relative aspect-square rounded-2xl overflow-hidden bg-slate-50 border border-slate-100">
+              <img src="./assets/images/katalog/sawit-jumbo/2.webp" alt="Paket Jumbo InterFarm" class="w-full h-full object-cover">
+              <div class="absolute top-2.5 left-2.5 bg-white/90 backdrop-blur border border-emerald-200 text-emerald-800 text-[9px] sm:text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider shadow-sm">
+                Paket Sultan 20 Ha
+              </div>
+            </div>
+
+            <!-- Integrated Trust Dock at Card Bottom -->
+            <div class="mt-3 p-3 rounded-xl bg-emerald-50/70 border border-emerald-100 flex items-center gap-2.5">
+              <div class="w-9 h-9 rounded-lg bg-emerald-600 text-white flex items-center justify-center shrink-0">
+                <i data-lucide="gauge" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <p class="text-xs font-bold text-slate-900 uppercase tracking-wider">Uji Kejujuran Mutu</p>
+                <p class="text-[11px] text-slate-600">Bisa Anda tes langsung dengan TDS/PPM Meter</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Edukasi Kejujuran & 3 Pilar Keunggulan -->
+  <section class="py-12 sm:py-16 bg-white border-b border-emerald-100/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-10 sm:mb-12">
+        <span class="inline-block px-3 py-1 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-bold uppercase tracking-wider mb-2">
+          Transparansi Laboratorium
+        </span>
+        <h2 class="text-xl sm:text-3xl font-extrabold text-slate-900">
+          Sering Kecewa Pupuk Kurang Bereaksi & Buah Tetap Sedikit?
+        </h2>
+        <p class="mt-2 text-slate-600 text-xs sm:text-sm leading-relaxed">
+          Banyak pupuk cair di pasaran dioplos air sehingga kadar haranya rendah. InterFarm mengedukasi petani dengan standar kejujuran mutu terbuka — silakan uji langsung menggunakan alat TDS/PPM meter!
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-5 sm:gap-6">
+        <!-- Card 1: 10.100 PPM -->
+        <div class="bg-slate-50 border border-emerald-100/80 rounded-3xl p-5 sm:p-6 hover:border-emerald-500 hover:shadow-md transition space-y-3 sm:space-y-4">
+          <div class="w-11 h-11 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">
+            <i data-lucide="gauge" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-base sm:text-lg font-bold text-slate-900">Uji Kepekatan 10.100 PPM</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            Buktikan kejujuran formula kami dengan alat TDS/PPM meter saat paket sampai. Kepekatan murni 10.100 PPM menjamin tanaman Anda mendapatkan nutrisi padat tanpa tertipu cairan oplosan air.
+          </p>
+        </div>
+
+        <!-- Card 2: Kelarutan 1N -->
+        <div class="bg-slate-50 border border-emerald-100/80 rounded-3xl p-5 sm:p-6 hover:border-emerald-500 hover:shadow-md transition space-y-3 sm:space-y-4">
+          <div class="w-11 h-11 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">
+            <i data-lucide="zap" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-base sm:text-lg font-bold text-slate-900">Kelarutan 1N Non-Fermentasi</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            Bukan fermentasi tradisional yang bau dan lambat terurai. Diproses hingga kelarutan 1N ionik yang larut sempurna tanpa endapan, langsung diserap mulut akar dan daun seketika.
+          </p>
+        </div>
+
+        <!-- Card 3: Piruvatisasi Pasta -->
+        <div class="bg-slate-50 border border-emerald-100/80 rounded-3xl p-5 sm:p-6 hover:border-emerald-500 hover:shadow-md transition space-y-3 sm:space-y-4">
+          <div class="w-11 h-11 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">
+            <i data-lucide="layers" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-base sm:text-lg font-bold text-slate-900">Piruvatisasi Sponge Gel</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            Pupuk pasta inovatif bertekstur gel spons pengunci air di tanah pasir & gambut. Aktif melarutkan sisa pupuk kimia keras yang membatu di piringan agar tanah kembali subur dan gembur.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Showcase Produk Jadi Ritel Unggulan (Shopee-Style 2 Columns on Mobile) -->
+  <section class="py-10 sm:py-16 bg-[#F8FAF9] border-b border-emerald-100/80">
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-6 sm:mb-10 gap-2 sm:gap-4">
+        <div>
+          <span class="inline-block px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-200 text-xs font-bold uppercase tracking-wider mb-2">
+            Katalog Unggulan
+          </span>
+          <h2 class="text-xl sm:text-3xl font-extrabold text-slate-900">Produk Jadi Siap Kirim (Bisa COD)</h2>
+          <p class="text-slate-600 text-xs sm:text-sm mt-1">Pilihan paket nutrisi terbaik untuk kelapa sawit, kopi, dan tanaman pangan.</p>
+        </div>
+        <a href="./katalog/index.html" class="inline-flex items-center gap-1 text-xs sm:text-sm font-bold text-emerald-700 hover:underline">
+          <span>Lihat Seluruh Katalog</span>
+          <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+        </a>
+      </div>
+
+      <!-- 4 Featured Product Cards (2 Columns on Mobile: grid-cols-2) -->
+      <div class="grid grid-cols-2 gap-2.5 sm:gap-6 lg:grid-cols-4">
+
+        <!-- Product 1: Paket Jumbo Sawit -->
+        <div onclick="openProductModal('sawit-jumbo')" class="cursor-pointer bg-white border border-slate-200/90 rounded-2xl sm:rounded-3xl overflow-hidden shadow-sm hover:border-emerald-500 hover:shadow-lg transition flex flex-col justify-between group p-2.5 sm:p-5">
+          <div>
+            <div class="relative bg-slate-50 aspect-square overflow-hidden rounded-xl sm:rounded-2xl border border-slate-100">
+              <img src="./assets/images/katalog/sawit-jumbo/2.webp" alt="Paket Jumbo Sawit" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+              <span class="absolute top-2 left-2 bg-emerald-600 text-white text-[9px] sm:text-[11px] font-bold px-2 py-0.5 rounded-md uppercase tracking-wider shadow">
+                15 - 20 Ha
+              </span>
+            </div>
+            <div class="pt-2.5 sm:pt-4 space-y-1">
+              <h3 class="text-xs sm:text-base font-bold text-slate-900 group-hover:text-emerald-700 transition line-clamp-2 leading-tight">
+                Paket Jumbo Sultan Sawit
+              </h3>
+              <p class="text-[10px] sm:text-xs text-emerald-700 font-bold truncate">25L Booster + 20Kg Pasta</p>
+              <div class="inline-flex items-center gap-1 text-[9px] sm:text-[11px] font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-md">
+                <span>10.100 PPM</span>
+              </div>
+            </div>
+          </div>
+          <div class="pt-3">
+            <button type="button" class="w-full text-center py-2 sm:py-2.5 rounded-xl bg-emerald-600 group-hover:bg-emerald-700 text-white text-[10px] sm:text-xs font-black transition flex items-center justify-center gap-1 shadow-sm">
+              <i data-lucide="eye" class="w-3.5 h-3.5"></i> Detail & Pesan
+            </button>
+          </div>
+        </div>
+
+        <!-- Product 2: Paket Sawit Musim Kemarau -->
+        <div onclick="openProductModal('sawit-kemarau')" class="cursor-pointer bg-white border border-slate-200/90 rounded-2xl sm:rounded-3xl overflow-hidden shadow-sm hover:border-emerald-500 hover:shadow-lg transition flex flex-col justify-between group p-2.5 sm:p-5">
+          <div>
+            <div class="relative bg-slate-50 aspect-square overflow-hidden rounded-xl sm:rounded-2xl border border-slate-100">
+              <img src="./assets/images/katalog/sawit-reguler/l.webp" alt="Paket Sawit Musim Kemarau" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+              <span class="absolute top-2 left-2 bg-emerald-600 text-white text-[9px] sm:text-[11px] font-bold px-2 py-0.5 rounded-md uppercase tracking-wider shadow">
+                5L & 1Kg
+              </span>
+            </div>
+            <div class="pt-2.5 sm:pt-4 space-y-1">
+              <h3 class="text-xs sm:text-base font-bold text-slate-900 group-hover:text-emerald-700 transition line-clamp-2 leading-tight">
+                Paket Sawit Kemarau
+              </h3>
+              <p class="text-[10px] sm:text-xs text-emerald-700 font-bold truncate">5L Booster + 1Kg Pasta</p>
+              <div class="inline-flex items-center gap-1 text-[9px] sm:text-[11px] font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-md">
+                <span>Reaksi 2 Hari</span>
+              </div>
+            </div>
+          </div>
+          <div class="pt-3">
+            <button type="button" class="w-full text-center py-2 sm:py-2.5 rounded-xl bg-emerald-600 group-hover:bg-emerald-700 text-white text-[10px] sm:text-xs font-black transition flex items-center justify-center gap-1 shadow-sm">
+              <i data-lucide="eye" class="w-3.5 h-3.5"></i> Detail & Pesan
+            </button>
+          </div>
+        </div>
+
+        <!-- Product 3: Biang Kocor Sawit 2 Ha -->
+        <div onclick="openProductModal('sawit-kocor')" class="cursor-pointer bg-white border border-slate-200/90 rounded-2xl sm:rounded-3xl overflow-hidden shadow-sm hover:border-emerald-500 hover:shadow-lg transition flex flex-col justify-between group p-2.5 sm:p-5">
+          <div>
+            <div class="relative bg-slate-50 aspect-square overflow-hidden rounded-xl sm:rounded-2xl border border-slate-100">
+              <img src="./assets/images/katalog/sawit-kocor/2.webp" alt="Biang Kocor Sawit 2 Ha" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+              <span class="absolute top-2 left-2 bg-emerald-600 text-white text-[9px] sm:text-[11px] font-bold px-2 py-0.5 rounded-md uppercase tracking-wider shadow">
+                2 Hektar
+              </span>
+            </div>
+            <div class="pt-2.5 sm:pt-4 space-y-1">
+              <h3 class="text-xs sm:text-base font-bold text-slate-900 group-hover:text-emerald-700 transition line-clamp-2 leading-tight">
+                Biang Kocor Sawit (2 Ha)
+              </h3>
+              <p class="text-[10px] sm:text-xs text-emerald-700 font-bold truncate">1L Kocor + 1Kg Pelarut</p>
+              <div class="inline-flex items-center gap-1 text-[9px] sm:text-[11px] font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-md">
+                <span>Ramah Ongkir</span>
+              </div>
+            </div>
+          </div>
+          <div class="pt-3">
+            <button type="button" class="w-full text-center py-2 sm:py-2.5 rounded-xl bg-emerald-600 group-hover:bg-emerald-700 text-white text-[10px] sm:text-xs font-black transition flex items-center justify-center gap-1 shadow-sm">
+              <i data-lucide="eye" class="w-3.5 h-3.5"></i> Detail & Pesan
+            </button>
+          </div>
+        </div>
+
+        <!-- Product 4: POC Booster Kopi -->
+        <div onclick="openProductModal('kopi-5l')" class="cursor-pointer bg-white border border-slate-200/90 rounded-2xl sm:rounded-3xl overflow-hidden shadow-sm hover:border-emerald-500 hover:shadow-lg transition flex flex-col justify-between group p-2.5 sm:p-5">
+          <div>
+            <div class="relative bg-slate-50 aspect-square overflow-hidden rounded-xl sm:rounded-2xl border border-slate-100">
+              <img src="./assets/images/katalog/kopi/1.webp" alt="POC Booster Kopi" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+              <span class="absolute top-2 left-2 bg-emerald-600 text-white text-[9px] sm:text-[11px] font-bold px-2 py-0.5 rounded-md uppercase tracking-wider shadow">
+                5 Liter
+              </span>
+            </div>
+            <div class="pt-2.5 sm:pt-4 space-y-1">
+              <h3 class="text-xs sm:text-base font-bold text-slate-900 group-hover:text-emerald-700 transition line-clamp-2 leading-tight">
+                POC Booster Khusus KOPI
+              </h3>
+              <p class="text-[10px] sm:text-xs text-emerald-700 font-bold truncate">Ekstraksi Alami Murni</p>
+              <div class="inline-flex items-center gap-1 text-[9px] sm:text-[11px] font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-md">
+                <span>Bunga Serentak</span>
+              </div>
+            </div>
+          </div>
+          <div class="pt-3">
+            <button type="button" class="w-full text-center py-2 sm:py-2.5 rounded-xl bg-emerald-600 group-hover:bg-emerald-700 text-white text-[10px] sm:text-xs font-black transition flex items-center justify-center gap-1 shadow-sm">
+              <i data-lucide="eye" class="w-3.5 h-3.5"></i> Detail & Pesan
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Layanan Maklon & Bahan Baku F1 Lab -->
+  <!-- Section: Layanan Maklon & Bahan Baku F1 Lab -->
+  <section class="py-12 sm:py-16 bg-white border-b border-emerald-100/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        <div class="lg:col-span-7 space-y-4 sm:space-y-5">
+          <span class="inline-block px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-200 text-xs font-bold uppercase tracking-wider">
+            Divisi Kemitraan Agrotech B2B
+          </span>
+          <h2 class="text-2xl sm:text-4xl font-extrabold text-slate-900 leading-tight">
+            Dua Solusi Besar untuk Bisnis & Kebun Anda: <br class="hidden sm:inline">
+            <span class="text-emerald-700">Merek Sendiri</span> atau <span class="text-emerald-700">Mandiri Pupuk di Kebun</span>
+          </h2>
+          <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+            Laboratorium InterFarm membuka kemitraan suplai 13+ prototipe bahan aktif F1 konsentrat murni 10.100 PPM kelarutan 1N tangan pertama langsung dari laboratorium.
+          </p>
+
+          <!-- 2 Jalur Ajakan (Cards) -->
+          <div class="grid sm:grid-cols-2 gap-3 pt-1">
+            <!-- Jalur 1 -->
+            <div class="p-4 rounded-2xl bg-emerald-50/70 border border-emerald-200 space-y-1.5 hover:border-emerald-400 transition">
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-md bg-emerald-600 text-white text-[9px] font-black uppercase">Jalur 1</span>
+                <h4 class="text-xs sm:text-sm font-bold text-slate-900">Merek Pupuk Sendiri</h4>
+              </div>
+              <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed">
+                Untuk kios tani & distributor. Raih <strong>margin tebal hingga 200%</strong> tanpa perang harga. Kemasan <em>white-label</em> siap pasang stiker brand Anda!
+              </p>
+            </div>
+
+            <!-- Jalur 2 -->
+            <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-1.5 hover:border-emerald-300 transition">
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded-md bg-slate-800 text-white text-[9px] font-black uppercase">Jalur 2</span>
+                <h4 class="text-xs sm:text-sm font-bold text-slate-900">Mandiri Pupuk di Kebun</h4>
+              </div>
+              <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed">
+                Untuk pemilik kebun 20 Ha ke atas. <strong>Pangkas anggaran pupuk hingga 70%</strong> dengan suplai bahan F1 murni dan instalasi pengenceran mandiri di kebun.
+              </p>
+            </div>
+          </div>
+
+          <!-- Highlight Free Lab Sample -->
+          <div class="flex items-center gap-2 text-xs text-emerald-800 font-bold bg-emerald-100/70 border border-emerald-200 px-3.5 py-2 rounded-xl">
+            <i data-lucide="gift" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+            <span>Dapatkan Uji Sampel Formula Laboratorium Gratis Sebelum Produksi!</span>
+          </div>
+
+          <!-- 2 CTA Buttons -->
+          <div class="pt-1 flex flex-col sm:flex-row gap-2.5 sm:gap-3">
+            <a href="https://api.whatsapp.com/send?phone=6285697337041&text=Halo%20Tim%20Maklon%20InterFarm,%20saya%20tertarik%20konsultasi%20maklon%20merek%20sendiri%20/%20mandiri%20pupuk%20kebun.%20Mohon%20info%20sampel%20lab%20gratisnya" target="_blank" class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-black text-xs sm:text-sm shadow-md shadow-emerald-600/20 transition">
+              <i data-lucide="message-circle" class="w-4 h-4"></i>
+              <span>Konsultasi Maklon & Uji Sampel Gratis</span>
+            </a>
+            <a href="./maklon/index.html" class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-white hover:bg-emerald-50 text-slate-800 border border-slate-200 font-bold text-xs sm:text-sm shadow-sm transition">
+              <i data-lucide="layers" class="w-4 h-4 text-emerald-600"></i>
+              <span>Lihat 13+ Prototipe Bahan F1</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-5">
+          <div class="bg-slate-50 p-3 sm:p-4 rounded-3xl border border-emerald-100 shadow-sm relative">
+            <img src="./assets/images/maklon/maklon-target-market.webp" alt="Fasilitas Maklon InterFarm" class="w-full h-auto rounded-2xl object-cover">
+            <div class="mt-3 p-3 rounded-xl bg-white border border-emerald-100 flex items-center gap-2.5 shadow-sm">
+              <div class="w-9 h-9 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0">
+                <i data-lucide="shield-check" class="w-5 h-5"></i>
+              </div>
+              <div class="text-xs">
+                <p class="font-bold text-slate-900">Kerahasiaan Formula 100%</p>
+                <p class="text-[11px] text-slate-500">Privasi merek dan keamanan formulasi Anda terlindungi penuh.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= COMPREHENSIVE 4-COLUMN TRUST FOOTER ================= -->
+  <footer class="bg-forest-900 text-slate-300 border-t border-forest-800">
+    <!-- Top Trust Ribbon -->
+    <div class="border-b border-forest-800/80 bg-forest-950/60 py-6">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 text-center sm:text-left">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0">
+              <i data-lucide="shield-check" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <p class="text-xs sm:text-sm font-bold text-white">100% Asli Pabrik</p>
+              <p class="text-[11px] text-slate-400">Formula murni non-oplosan</p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0">
+              <i data-lucide="truck" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <p class="text-xs sm:text-sm font-bold text-white">COD Se-Indonesia</p>
+              <p class="text-[11px] text-slate-400">Bayar saat pupuk sampai</p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0">
+              <i data-lucide="flask-conical" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <p class="text-xs sm:text-sm font-bold text-white">Riset Lab 1N Ionik</p>
+              <p class="text-[11px] text-slate-400">Kelarutan cepat tanpa residu</p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0">
+              <i data-lucide="headphones" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <p class="text-xs sm:text-sm font-bold text-white">Konsultasi Gratis</p>
+              <p class="text-[11px] text-slate-400">Panduan dosis kebun & formula</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Footer 4 Columns -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-10">
+        
+        <!-- Col 1: Brand & Office (4 cols) -->
+        <div class="lg:col-span-4 space-y-4">
+          <div class="flex items-center gap-3">
+            <img src="./assets/images/logo/logo.webp" alt="Logo InterFarm" class="h-10 w-10 object-contain rounded-full bg-white p-0.5">
+            <div>
+              <span class="text-xl font-black text-white">Inter<span class="text-emerald-400">Farm</span></span>
+              <span class="block text-[11px] text-emerald-300/80 -mt-0.5">Integrated Farming Indonesia</span>
+            </div>
+          </div>
+          <p class="text-xs text-slate-300 leading-relaxed">
+            Pusat inovasi riset agrotech, bio-kimia, dan laboratorium formulasi pupuk organik presisi kelarutan 1N. Melayani pengiriman pupuk ritel COD ke seluruh Indonesia serta kemitraan maklon B2B.
+          </p>
+          <div class="text-xs text-slate-400 space-y-1.5 pt-1">
+            <p class="flex items-center gap-2">
+              <i data-lucide="truck" class="w-4 h-4 text-emerald-400 shrink-0"></i>
+              <span>Pengiriman COD ke Seluruh Pelosok Indonesia</span>
+            </p>
+            <p class="flex items-center gap-2">
+              <i data-lucide="clock" class="w-4 h-4 text-emerald-400 shrink-0"></i>
+              <span>Senin - Sabtu: 08.00 - 21.00 WIB</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation Links (2 cols) -->
+        <div class="lg:col-span-2 space-y-3">
+          <h4 class="text-sm font-bold text-white uppercase tracking-wider">Navigasi</h4>
+          <ul class="text-xs space-y-2 text-slate-300">
+            <li><a href="./index.html" class="text-emerald-300 font-semibold">Beranda Utama</a></li>
+            <li><a href="./about/index.html" class="hover:text-emerald-300 transition">Tentang InterFarm</a></li>
+            <li><a href="./katalog/index.html" class="hover:text-emerald-300 transition">Katalog Produk Jadi</a></li>
+            <li><a href="./maklon/index.html" class="hover:text-emerald-300 transition">Layanan Maklon B2B</a></li>
+            <li><a href="./kontak/index.html" class="hover:text-emerald-300 transition">Hubungi Kami</a></li>
+            <li><a href="https://shopee.co.id/interfarm.id" target="_blank" class="hover:text-emerald-300 transition flex items-center gap-1"><i data-lucide="shopping-bag" class="w-3.5 h-3.5 text-emerald-400"></i> Shopee Official</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Core Products & Services (3 cols) -->
+        <div class="lg:col-span-3 space-y-3">
+          <h4 class="text-sm font-bold text-white uppercase tracking-wider">Produk & Layanan</h4>
+          <ul class="text-xs space-y-2 text-slate-300">
+            <li><a href="./katalog/index.html" class="hover:text-emerald-300 transition">Paket Jumbo Sawit 25L (5 Ha)</a></li>
+            <li><a href="./katalog/index.html" class="hover:text-emerald-300 transition">Paket Sawit Reguler 5L (1 Ha)</a></li>
+            <li><a href="./katalog/index.html" class="hover:text-emerald-300 transition">Biang Kocor Sawit 2 Hektar</a></li>
+            <li><a href="./katalog/index.html" class="hover:text-emerald-300 transition">POC Kopi Organik Intensif 5L</a></li>
+            <li><a href="./katalog/index.html" class="hover:text-emerald-300 transition">POC Padi Guano Organik 5L</a></li>
+            <li><a href="./maklon/index.html" class="hover:text-emerald-300 transition">Suplai 13+ Prototipe Bahan F1</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Official Hotline CS (3 cols) -->
+        <div class="lg:col-span-3 space-y-3">
+          <h4 class="text-sm font-bold text-white uppercase tracking-wider">Layanan Pelanggan</h4>
+          <div class="space-y-3">
+            <a href="https://api.whatsapp.com/send?phone=6285815768319&text=Halo%20CS%20InterFarm,%20saya%20ingin%20order%20produk%20katalog" target="_blank" class="block p-3 rounded-xl bg-forest-850 border border-forest-800 hover:border-emerald-500 transition">
+              <span class="block text-[10px] font-bold uppercase text-emerald-400">CS Order Ritel & COD:</span>
+              <span class="text-sm font-black text-white flex items-center gap-1.5 mt-0.5">
+                <svg class="w-4 h-4 fill-emerald-400 shrink-0" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 012.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 01-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.19.53-1.06 1.04-1.46 1.1-.39.06-.89.09-2.88-.7-2.39-.96-3.92-3.4-4.04-3.56-.12-.16-.98-1.31-.98-2.5 0-1.19.62-1.78.84-2.02.22-.24.48-.3.64-.3.16 0 .32 0 .46.01.15.01.35-.06.54.41.2.49.69 1.69.75 1.82.06.12.1.27.02.43-.08.16-.12.27-.24.41-.12.14-.26.32-.37.43-.12.12-.25.25-.11.49.14.24.63 1.04 1.35 1.68.93.83 1.71 1.09 1.95 1.21.24.12.39.1.53-.06.14-.16.61-.71.77-.96.16-.24.33-.2.55-.12.22.08 1.42.67 1.66.79.24.12.41.18.47.28.06.1.06.59-.13 1.12z"/></svg> 0858-1576-8319
+              </span>
+            </a>
+
+            <a href="https://api.whatsapp.com/send?phone=6285697337041&text=Halo%20Tim%20Maklon%20InterFarm,%20saya%20ingin%20konsultasi%20maklon" target="_blank" class="block p-3 rounded-xl bg-forest-850 border border-forest-800 hover:border-emerald-500 transition">
+              <span class="block text-[10px] font-bold uppercase text-emerald-400">Hotline Maklon & B2B:</span>
+              <span class="text-sm font-black text-white flex items-center gap-1.5 mt-0.5">
+                <svg class="w-4 h-4 fill-emerald-400 shrink-0" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 012.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 01-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.19.53-1.06 1.04-1.46 1.1-.39.06-.89.09-2.88-.7-2.39-.96-3.92-3.4-4.04-3.56-.12-.16-.98-1.31-.98-2.5 0-1.19.62-1.78.84-2.02.22-.24.48-.3.64-.3.16 0 .32 0 .46.01.15.01.35-.06.54.41.2.49.69 1.69.75 1.82.06.12.1.27.02.43-.08.16-.12.27-.24.41-.12.14-.26.32-.37.43-.12.12-.25.25-.11.49.14.24.63 1.04 1.35 1.68.93.83 1.71 1.09 1.95 1.21.24.12.39.1.53-.06.14-.16.61-.71.77-.96.16-.24.33-.2.55-.12.22.08 1.42.67 1.66.79.24.12.41.18.47.28.06.1.06.59-.13 1.12z"/></svg> 0856-9733-7041
+              </span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Bottom Copyright & Badges -->
+    <div class="border-t border-forest-800 py-6 text-xs text-slate-400 bg-forest-950">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-center sm:text-left">
+        <p>© 2026 InterFarm Indonesia. Seluruh hak cipta dilindungi undang-undang.</p>
+        <div class="flex items-center gap-3 text-[11px] text-emerald-400/90 font-medium">
+          <span class="px-2 py-0.5 rounded bg-forest-900 border border-forest-800">J&T</span>
+          <span class="px-2 py-0.5 rounded bg-forest-900 border border-forest-800">JNE</span>
+          <span class="px-2 py-0.5 rounded bg-forest-900 border border-forest-800">SiCepat</span>
+          <span class="px-2 py-0.5 rounded bg-forest-900 border border-forest-800">SPX Express</span>
+          <span class="px-2 py-0.5 rounded bg-emerald-950 border border-emerald-800 text-emerald-300 font-bold">COD Available</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Multi-Action WhatsApp Widget -->
+  <div class="fixed bottom-5 right-5 z-30">
+    <button id="floatingWaBtn" aria-label="Chat WhatsApp" class="w-13 h-13 p-3.5 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white shadow-2xl flex items-center justify-center transition-transform hover:scale-105 focus:outline-none shadow-emerald-600/30">
+      <svg class="w-6 h-6 fill-white shrink-0" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 012.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 01-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.19.53-1.06 1.04-1.46 1.1-.39.06-.89.09-2.88-.7-2.39-.96-3.92-3.4-4.04-3.56-.12-.16-.98-1.31-.98-2.5 0-1.19.62-1.78.84-2.02.22-.24.48-.3.64-.3.16 0 .32 0 .46.01.15.01.35-.06.54.41.2.49.69 1.69.75 1.82.06.12.1.27.02.43-.08.16-.12.27-.24.41-.12.14-.26.32-.37.43-.12.12-.25.25-.11.49.14.24.63 1.04 1.35 1.68.93.83 1.71 1.09 1.95 1.21.24.12.39.1.53-.06.14-.16.61-.71.77-.96.16-.24.33-.2.55-.12.22.08 1.42.67 1.66.79.24.12.41.18.47.28.06.1.06.59-.13 1.12z"/></svg>
+    </button>
+    
+    <!-- Pop-up Modal Option -->
+    <div id="waPopup" class="hidden absolute bottom-16 right-0 w-64 bg-white rounded-2xl shadow-2xl border border-emerald-100 p-4 space-y-2 text-xs">
+      <p class="font-bold text-slate-900 pb-2 border-b border-slate-100">Pilih Jalur WhatsApp:</p>
+      <a href="https://api.whatsapp.com/send?phone=6285815768319&text=Halo%20InterFarm,%20saya%20mau%20konsultasi%20produk%20jadi" target="_blank" class="flex items-center gap-2.5 p-2 rounded-xl hover:bg-emerald-50 text-slate-700 hover:text-emerald-700 transition">
+        <div class="w-7 h-7 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">1</div>
+        <div>
+          <p class="font-bold text-slate-900">CS Produk Jadi (Ritel)</p>
+          <p class="text-[10px] text-slate-500">Sawit, Kopi, Padi, COD</p>
+        </div>
+      </a>
+      <a href="https://api.whatsapp.com/send?phone=6285697337041&text=Halo%20InterFarm,%20saya%20mau%20konsultasi%20maklon%20b2b" target="_blank" class="flex items-center gap-2.5 p-2 rounded-xl hover:bg-emerald-50 text-slate-700 hover:text-emerald-700 transition">
+        <div class="w-7 h-7 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">2</div>
+        <div>
+          <p class="font-bold text-slate-900">CS Maklon & Pabrik</p>
+          <p class="text-[10px] text-slate-500">Merek sendiri, bahan F1</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- ================= PRODUCT DETAIL POPUP MODAL ================= -->
+  <div id="productModal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden flex items-end sm:items-center justify-center p-0 sm:p-4 transition-opacity">
+    <div id="modalContainer" class="bg-white w-full sm:max-w-lg rounded-t-3xl sm:rounded-3xl shadow-2xl p-5 sm:p-6 relative max-h-[90vh] overflow-y-auto space-y-4 animate-in slide-in-from-bottom duration-200">
+      
+      <!-- Mobile Drag Handle -->
+      <div class="w-12 h-1.5 bg-slate-300 rounded-full mx-auto sm:hidden -mt-1 mb-1"></div>
+
+      <!-- Close Button -->
+      <button onclick="closeProductModal()" aria-label="Tutup Detail" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center transition z-10">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <!-- HD Product Image -->
+      <div class="aspect-square max-w-[220px] sm:max-w-[280px] mx-auto rounded-2xl overflow-hidden bg-slate-50 border border-slate-100 shadow-sm relative">
+        <img id="modalImg" src="" alt="Detail Produk" class="w-full h-full object-cover">
+        <span id="modalFloatingBadge" class="absolute top-2.5 left-2.5 bg-emerald-600 text-white text-[10px] font-bold px-2.5 py-0.5 rounded-md uppercase tracking-wider shadow"></span>
+      </div>
+
+      <!-- Title & Header Badges -->
+      <div class="space-y-1 text-center sm:text-left pt-1">
+        <div class="flex items-center gap-1.5 justify-center sm:justify-start flex-wrap">
+          <span id="modalCategoryBadge" class="text-[10px] font-bold uppercase px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-200"></span>
+          <span class="text-[10px] font-bold uppercase px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-700 border border-slate-200">10.100 PPM Pabrik</span>
+        </div>
+        <h3 id="modalTitle" class="text-base sm:text-xl font-black text-slate-900 leading-snug"></h3>
+        <p id="modalSubtitle" class="text-xs text-emerald-700 font-bold"></p>
+      </div>
+
+      <!-- Detailed Description -->
+      <div class="text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+        <p id="modalDesc"></p>
+      </div>
+
+      <!-- Application / Dosage Guide Box -->
+      <div class="p-3 bg-emerald-50/70 rounded-2xl text-xs space-y-1 border border-emerald-100">
+        <p class="font-bold text-slate-900 flex items-center gap-1.5">
+          <i data-lucide="droplet" class="w-3.5 h-3.5 text-emerald-600 shrink-0"></i>
+          <span>Panduan Dosis & Cara Aplikasi:</span>
+        </p>
+        <p id="modalDosage" class="text-slate-600 leading-relaxed"></p>
+      </div>
+
+      <!-- 2 Transaction CTAs -->
+      <div class="pt-2 flex flex-col sm:flex-row gap-2">
+        <a id="modalWaBtn" href="#" target="_blank" class="flex-1 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-black transition flex items-center justify-center gap-2 shadow-md shadow-emerald-600/20">
+          <svg class="w-4 h-4 sm:w-5 sm:h-5 fill-white shrink-0" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 012.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 01-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.19.53-1.06 1.04-1.46 1.1-.39.06-.89.09-2.88-.7-2.39-.96-3.92-3.4-4.04-3.56-.12-.16-.98-1.31-.98-2.5 0-1.19.62-1.78.84-2.02.22-.24.48-.3.64-.3.16 0 .32 0 .46.01.15.01.35-.06.54.41.2.49.69 1.69.75 1.82.06.12.1.27.02.43-.08.16-.12.27-.24.41-.12.14-.26.32-.37.43-.12.12-.25.25-.11.49.14.24.63 1.04 1.35 1.68.93.83 1.71 1.09 1.95 1.21.24.12.39.1.53-.06.14-.16.61-.71.77-.96.16-.24.33-.2.55-.12.22.08 1.42.67 1.66.79.24.12.41.18.47.28.06.1.06.59-.13 1.12z"/></svg>
+          <span>Pesan via WhatsApp (Bisa COD)</span>
+        </a>
+        <a id="modalShopeeBtn" href="https://shopee.co.id/interfarm.id" target="_blank" class="py-3 px-4 rounded-xl bg-white hover:bg-emerald-50 text-slate-800 border border-slate-200 text-xs sm:text-sm font-bold transition flex items-center justify-center gap-1.5">
+          <i data-lucide="shopping-cart" class="w-4 h-4 text-emerald-600"></i>
+          <span>Shopee Mall</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script>
+    lucide.createIcons();
+
+    // Mobile Menu Drawer
+    const mobileBtn = document.getElementById('mobileMenuBtn');
+    const mobileDrawer = document.getElementById('mobileDrawer');
+    if (mobileBtn && mobileDrawer) {
+      mobileBtn.addEventListener('click', () => {
+        mobileDrawer.classList.toggle('hidden');
+      });
+    }
+
+    // Floating WhatsApp Button Popup
+    const floatingWaBtn = document.getElementById('floatingWaBtn');
+    const waPopup = document.getElementById('waPopup');
+    if (floatingWaBtn && waPopup) {
+      floatingWaBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        waPopup.classList.toggle('hidden');
+      });
+      document.addEventListener('click', (e) => {
+        if (!waPopup.contains(e.target) && e.target !== floatingWaBtn) {
+          waPopup.classList.add('hidden');
+        }
+      });
+    }
+
+    // Product Database for Interactive Modal
+    const productData = {
+      'sawit-jumbo': {
+        img: './assets/images/katalog/sawit-jumbo/2.webp',
+        floatingBadge: '15 - 20 Hektar',
+        categoryBadge: 'Kelapa Sawit',
+        title: 'Paket Jumbo Sultan Nutrisi Sawit',
+        subtitle: '1 Jerigen Jumbo 25L + 1 Ember Pail 20Kg',
+        desc: 'Kombinasi Sawit Booster konsentrat 10.100 PPM + ZPT 100 PPM dan Pupuk Pasta formulasi Piruvatisasi Tingkat 1. Melarutkan pupuk kimia keras di piringan tanah, memutus siklus trek, dan mendongkrak tonase TBS hingga 15-20 hektar kebun sawit.',
+        dosage: 'Larutkan ke Toren 1.000 Liter Air. Dosis: 1 Botol 1,5L dibagi rata untuk 2 pokok sawit (750ml/pokok). Siram merata di piringan zona perakaran aktif.',
+        waText: 'Halo CS Ritel InterFarm, saya tertarik memesan Paket Jumbo Sultan Sawit (25L + 20Kg) sistem COD. Mohon info ketersediaan stok.'
+      },
+      'sawit-kemarau': {
+        img: './assets/images/katalog/sawit-reguler/l.webp',
+        floatingBadge: '5 Liter & 1 Kg',
+        categoryBadge: 'Kelapa Sawit',
+        title: 'Paket Sawit Musim Kemarau',
+        subtitle: '1 Jerigen 5L Sawit Booster + 1 Toples 1Kg Pupuk Pasta',
+        desc: 'Bebas trek panen terus sepanjang tahun. Pupuk pasta berbentuk gel sponge yang mengikat air dan nutrisi agar tidak menguap di lahan berpasir dan gambut. Mengandung konsorsium jamur Trichoderma sp aktif dan Makro NPK Organik murni.',
+        dosage: 'Campurkan 1 Liter Sawit Booster + 100g Pupuk Pasta ke dalam 100 Liter air. Siramkan 2–5 Liter per pokok sawit.',
+        waText: 'Halo CS Ritel InterFarm, saya tertarik memesan Paket Sawit Musim Kemarau (5L + 1Kg) sistem COD. Mohon info pengiriman.'
+      },
+      'sawit-kocor': {
+        img: './assets/images/katalog/sawit-kocor/2.webp',
+        floatingBadge: 'Cukup 2 Hektar',
+        categoryBadge: 'Kelapa Sawit',
+        title: 'Paket Biang Kocor Sawit (2 Ha)',
+        subtitle: '1 Jerigen 1L Biang Kocor + 1 Toples 1Kg Pelarut NPK',
+        desc: 'Sangat ramah ongkos kirim ke luar pulau Jawa. Dosis super pekat untuk 2 hektar kebun sawit (~280 pokok pohon). Memaksimalkan serapan hara di zona perakaran aktif dan memperbaiki pH tanah masam secara biologis.',
+        dosage: 'Campur 1 Jerigen Biang Kocor + 1 Toples Pelarut NPK ke Drum 400 Liter Air. Dosis: 1 Botol 1,5L untuk 1 pohon sawit.',
+        waText: 'Halo CS Ritel InterFarm, saya tertarik memesan Paket Biang Kocor Sawit (2 Ha) sistem COD. Mohon info pemesanan.'
+      },
+      'kopi-5l': {
+        img: './assets/images/katalog/kopi/1.webp',
+        floatingBadge: 'Jerigen 5 Liter',
+        categoryBadge: 'Kopi & Buah',
+        title: 'POC Booster Khusus KOPI',
+        subtitle: 'Ekstraksi Alami Murni (Bukan Kimia Sulapan)',
+        desc: 'Mempercepat pertumbuhan vegetatif, memicu pembungaan serentak, dan pemadatan biji kopi. Mengandung Enzym, Stimulator, 14 Asam Amino Esensial, Giberelin, dan Phospat Alam 40%. Usia produktif pohon kopi menjadi jauh lebih panjang.',
+        dosage: '1 Liter campur 75–100 Liter Air. Kocor piringan atau semprot batang dan daun saat pagi hari.',
+        waText: 'Halo CS Ritel InterFarm, saya tertarik memesan POC Booster Kopi (5 Liter) sistem COD. Mohon info harga promo.'
+      }
+    };
+
+    function openProductModal(productId) {
+      const p = productData[productId];
+      if (!p) return;
+
+      document.getElementById('modalImg').src = p.img;
+      document.getElementById('modalFloatingBadge').innerText = p.floatingBadge;
+      document.getElementById('modalCategoryBadge').innerText = p.categoryBadge;
+      document.getElementById('modalTitle').innerText = p.title;
+      document.getElementById('modalSubtitle').innerText = p.subtitle;
+      document.getElementById('modalDesc').innerText = p.desc;
+      document.getElementById('modalDosage').innerText = p.dosage;
+
+      const waBtn = document.getElementById('modalWaBtn');
+      waBtn.href = `https://api.whatsapp.com/send?phone=6285815768319&text=${encodeURIComponent(p.waText)}`;
+
+      const modal = document.getElementById('productModal');
+      modal.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+      lucide.createIcons();
+    }
+
+    function closeProductModal() {
+      const modal = document.getElementById('productModal');
+      modal.classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+
+    // Close on outside click
+    window.addEventListener('click', (e) => {
+      const modal = document.getElementById('productModal');
+      if (e.target === modal) {
+        closeProductModal();
+      }
+    });
+
+    // Close on Escape key
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeProductModal();
+      }
+    });
+  </script>
+</body>
+</html>
