@@ -1,19 +1,5 @@
 [
   {
-    "id": "contoh-1",
-    "title": "Contoh 1",
-    "subtitle": "Paket kombo 1 liter dan 1kg",
-    "category": "sawit",
-    "categoryBadge": "Khusus Kelapa Sawit (Sawit Khusus)",
-    "floatingBadge": "",
-    "cornerBadge": "",
-    "highlight": "",
-    "img": "../assets/images/katalog/contoh-1/1.webp",
-    "desc": "Hemat biaya kirim dengna membeli bian 1 Liter",
-    "dosage": "cukup pakai",
-    "waText": "Halo CS Ritel InterFarm, saya tertarik memesan Contoh 1  sistem COD. Mohon info pemesanan."
-  },
-  {
     "id": "sawit-jumbo",
     "title": "Paket Jumbo Sultan Sawit",
     "subtitle": "25L Booster + 20Kg Pasta",
