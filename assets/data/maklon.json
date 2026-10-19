@@ -54,6 +54,15 @@
     "waText": "Halo Tim Maklon InterFarm, saya tertarik konsultasi maklon formula MKP Cair Pupuk Buah F1."
   },
   {
+    "id": "nutrisi-buah",
+    "img": "../assets/images/maklon/nutrisi-buah-pupuk-buah.webp",
+    "category": "Pupuk Buah F1 Plus",
+    "title": "NUTRISI BUAH Pupuk Buah",
+    "desc": "Formula ionik pekat pemacu pembungaan serentak dan pengisi bobot buah dengan ZPT 1000 PPM.",
+    "spec": "Kandungan: Kalium 35%, Phospat 60%, Boron 5%, Magnesium 5%, dan ZPT 1000 PPM. 100% larut air tanpa residu endapan. Berfungsi memacu pembungaan serentak, mencegah kerontokan bunga dan putik buah, merangsang pembesaran buah, dan meningkatkan bobot panen perkebunan & hortikultura.",
+    "waText": "Halo Tim Maklon InterFarm, saya tertarik konsultasi maklon formula Nutrisi Buah Pupuk Buah F1."
+  },
+  {
     "id": "pembasmi-jamur",
     "img": "../assets/images/maklon/pembasmi-jamur-f1.webp",
     "category": "Fungisida Hayati",
