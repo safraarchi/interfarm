@@ -1,49 +1,80 @@
 SKU,Nama_Produk,Isi_Packing
-MKL-ES1-01L,ESSEN 1 Microba Metrix,1 Liter
-MKL-ES1-05L,ESSEN 1 Microba Metrix,5 Liter
-MKL-ES1-25L,ESSEN 1 Microba Metrix Jumbo,25 Liter
-MKL-ES2-01L,ESSEN 2 Biang Nutrisi,1 Liter
-MKL-ES2-05L,ESSEN 2 Biang Nutrisi,5 Liter
-MKL-ES2-25L,ESSEN 2 Biang Nutrisi Jumbo,25 Liter
-MKL-TRC-01L,BIO TRICO + Anti Jamur Hayati,1 Liter
-MKL-TRC-05L,BIO TRICO + Anti Jamur Hayati,5 Liter
-MKL-TRC-25L,BIO TRICO + Anti Jamur Hayati Jumbo,25 Liter
-MKL-MKP-01L,MKP CAIR PUPUK BUAH,1 Liter
-MKL-MKP-05L,MKP CAIR PUPUK BUAH,5 Liter
-MKL-MKP-25L,MKP CAIR PUPUK BUAH Jumbo,25 Liter
-MKL-NTB-01L,NUTRISI BUAH Pupuk Buah,1 Liter
-MKL-NTB-05L,NUTRISI BUAH Pupuk Buah,5 Liter
-MKL-NTB-25L,NUTRISI BUAH Pupuk Buah Jumbo,25 Liter
-MKL-PBJ-01L,Bahan Baku Pembasmi Jamur F1,1 Liter
-MKL-PBJ-05L,Bahan Baku Pembasmi Jamur F1,5 Liter
-MKL-PBJ-25L,Bahan Baku Pembasmi Jamur F1 Jumbo,25 Liter
-MKL-POC-01L,ESSEN POC Pupuk Organik Cair,1 Liter
-MKL-POC-05L,ESSEN POC Pupuk Organik Cair,5 Liter
-MKL-POC-25L,ESSEN POC Pupuk Organik Cair Jumbo,25 Liter
-MKL-PHC-01L,ESSEN PHC Pupuk Hayati Cair,1 Liter
-MKL-PHC-05L,ESSEN PHC Pupuk Hayati Cair,5 Liter
-MKL-PHC-25L,ESSEN PHC Pupuk Hayati Cair Jumbo,25 Liter
-MKL-PRB-01L,ISOLAT Probiotik Ternak & Ikan,1 Liter
-MKL-PRB-05L,ISOLAT Probiotik Ternak & Ikan,5 Liter
-MKL-PRB-25L,ISOLAT Probiotik Ternak & Ikan Jumbo,25 Liter
-MKL-ASH-01L,ASAM HUMAT Pembenah Tanah F1 (Cair),1 Liter
-MKL-ASH-05L,ASAM HUMAT Pembenah Tanah F1 (Cair),5 Liter
-MKL-ASH-25L,ASAM HUMAT Pembenah Tanah F1 Jumbo (Cair),25 Liter
-MKL-ASH-01K,ASAM HUMAT Pembenah Tanah F1 (Pasta/Serbuk),1 Kg
-MKL-ASH-20K,ASAM HUMAT Pembenah Tanah F1 Jumbo (Pasta/Serbuk),20 Kg
-MKL-P65-01L,PHOSPAT P2O5 Cair Alami 65%,1 Liter
-MKL-P65-05L,PHOSPAT P2O5 Cair Alami 65%,5 Liter
-MKL-P65-25L,PHOSPAT P2O5 Cair Alami 65% Jumbo,25 Liter
-MKL-PNB-01L,Pestisida Plus Perekat & ZPT,1 Liter
-MKL-PNB-05L,Pestisida Plus Perekat & ZPT,5 Liter
-MKL-PNB-25L,Pestisida Plus Perekat & ZPT Jumbo,25 Liter
-MKL-KCL-01L,Potasium Klorida KCL Cair,1 Liter
-MKL-KCL-05L,Potasium Klorida KCL Cair,5 Liter
-MKL-KCL-25L,Potasium Klorida KCL Cair Jumbo,25 Liter
-MKL-AMB-01L,Amino Booster Plus ZPT F1,1 Liter
-MKL-AMB-05L,Amino Booster Plus ZPT F1,5 Liter
-MKL-AMB-25L,Amino Booster Plus ZPT F1 Jumbo,25 Liter
-MKL-HMP-01K,Humat Pasta Pupuk Makro F1,1 Kg
-MKL-HMP-20K,Humat Pasta Pupuk Makro F1 Jumbo,20 Kg
-MKL-BSL-01K,Bio Soil Pengganti Dolomit,1 Kg
-MKL-BSL-20K,Bio Soil Pengganti Dolomit Jumbo,20 Kg
+MKL-ES1-100ML,ESSEN 1 Microba Metrix,ESSEN 1 Microba Metrix 100 ml
+MKL-ES1-500ML,ESSEN 1 Microba Metrix,ESSEN 1 Microba Metrix 500 ml
+MKL-ES1-1L,ESSEN 1 Microba Metrix,ESSEN 1 Microba Metrix 1 Liter
+MKL-ES1-5L,ESSEN 1 Microba Metrix,ESSEN 1 Microba Metrix 5 Liter
+MKL-ES1-25L,ESSEN 1 Microba Metrix,ESSEN 1 Microba Metrix 25 Liter
+MKL-ES2-100ML,ESSEN 2 Biang Nutrisi,ESSEN 2 Biang Nutrisi 100 ml
+MKL-ES2-500ML,ESSEN 2 Biang Nutrisi,ESSEN 2 Biang Nutrisi 500 ml
+MKL-ES2-1L,ESSEN 2 Biang Nutrisi,ESSEN 2 Biang Nutrisi 1 Liter
+MKL-ES2-5L,ESSEN 2 Biang Nutrisi,ESSEN 2 Biang Nutrisi 5 Liter
+MKL-ES2-25L,ESSEN 2 Biang Nutrisi,ESSEN 2 Biang Nutrisi 25 Liter
+MKL-TRC-100ML,BIO TRICO + Anti Jamur Hayati,BIO TRICO + Anti Jamur Hayati 100 ml
+MKL-TRC-500ML,BIO TRICO + Anti Jamur Hayati,BIO TRICO + Anti Jamur Hayati 500 ml
+MKL-TRC-1L,BIO TRICO + Anti Jamur Hayati,BIO TRICO + Anti Jamur Hayati 1 Liter
+MKL-TRC-5L,BIO TRICO + Anti Jamur Hayati,BIO TRICO + Anti Jamur Hayati 5 Liter
+MKL-TRC-25L,BIO TRICO + Anti Jamur Hayati,BIO TRICO + Anti Jamur Hayati 25 Liter
+MKL-MKP-100ML,MKP CAIR PUPUK BUAH,MKP CAIR PUPUK BUAH 100 ml
+MKL-MKP-500ML,MKP CAIR PUPUK BUAH,MKP CAIR PUPUK BUAH 500 ml
+MKL-MKP-1L,MKP CAIR PUPUK BUAH,MKP CAIR PUPUK BUAH 1 Liter
+MKL-MKP-5L,MKP CAIR PUPUK BUAH,MKP CAIR PUPUK BUAH 5 Liter
+MKL-MKP-25L,MKP CAIR PUPUK BUAH,MKP CAIR PUPUK BUAH 25 Liter
+MKL-NTB-100ML,NUTRISI BUAH Pupuk Buah,NUTRISI BUAH Pupuk Buah 100 ml
+MKL-NTB-500ML,NUTRISI BUAH Pupuk Buah,NUTRISI BUAH Pupuk Buah 500 ml
+MKL-NTB-1L,NUTRISI BUAH Pupuk Buah,NUTRISI BUAH Pupuk Buah 1 Liter
+MKL-NTB-5L,NUTRISI BUAH Pupuk Buah,NUTRISI BUAH Pupuk Buah 5 Liter
+MKL-NTB-25L,NUTRISI BUAH Pupuk Buah,NUTRISI BUAH Pupuk Buah 25 Liter
+MKL-PBJ-100ML,Bahan Baku Pembasmi Jamur F1,Bahan Baku Pembasmi Jamur F1 100 ml
+MKL-PBJ-500ML,Bahan Baku Pembasmi Jamur F1,Bahan Baku Pembasmi Jamur F1 500 ml
+MKL-PBJ-1L,Bahan Baku Pembasmi Jamur F1,Bahan Baku Pembasmi Jamur F1 1 Liter
+MKL-PBJ-5L,Bahan Baku Pembasmi Jamur F1,Bahan Baku Pembasmi Jamur F1 5 Liter
+MKL-PBJ-25L,Bahan Baku Pembasmi Jamur F1,Bahan Baku Pembasmi Jamur F1 25 Liter
+MKL-POC-100ML,ESSEN POC Pupuk Organik Cair,ESSEN POC Pupuk Organik Cair 100 ml
+MKL-POC-500ML,ESSEN POC Pupuk Organik Cair,ESSEN POC Pupuk Organik Cair 500 ml
+MKL-POC-1L,ESSEN POC Pupuk Organik Cair,ESSEN POC Pupuk Organik Cair 1 Liter
+MKL-POC-5L,ESSEN POC Pupuk Organik Cair,ESSEN POC Pupuk Organik Cair 5 Liter
+MKL-POC-25L,ESSEN POC Pupuk Organik Cair,ESSEN POC Pupuk Organik Cair 25 Liter
+MKL-PHC-100ML,ESSEN PHC Pupuk Hayati Cair,ESSEN PHC Pupuk Hayati Cair 100 ml
+MKL-PHC-500ML,ESSEN PHC Pupuk Hayati Cair,ESSEN PHC Pupuk Hayati Cair 500 ml
+MKL-PHC-1L,ESSEN PHC Pupuk Hayati Cair,ESSEN PHC Pupuk Hayati Cair 1 Liter
+MKL-PHC-5L,ESSEN PHC Pupuk Hayati Cair,ESSEN PHC Pupuk Hayati Cair 5 Liter
+MKL-PHC-25L,ESSEN PHC Pupuk Hayati Cair,ESSEN PHC Pupuk Hayati Cair 25 Liter
+MKL-PRB-100ML,ISOLAT Probiotik Ternak & Ikan,ISOLAT Probiotik Ternak & Ikan 100 ml
+MKL-PRB-500ML,ISOLAT Probiotik Ternak & Ikan,ISOLAT Probiotik Ternak & Ikan 500 ml
+MKL-PRB-1L,ISOLAT Probiotik Ternak & Ikan,ISOLAT Probiotik Ternak & Ikan 1 Liter
+MKL-PRB-5L,ISOLAT Probiotik Ternak & Ikan,ISOLAT Probiotik Ternak & Ikan 5 Liter
+MKL-PRB-25L,ISOLAT Probiotik Ternak & Ikan,ISOLAT Probiotik Ternak & Ikan 25 Liter
+MKL-ASH-100ML,ASAM HUMAT Pembenah Tanah F1,ASAM HUMAT Pembenah Tanah F1 100 ml
+MKL-ASH-500ML,ASAM HUMAT Pembenah Tanah F1,ASAM HUMAT Pembenah Tanah F1 500 ml
+MKL-ASH-1L,ASAM HUMAT Pembenah Tanah F1,ASAM HUMAT Pembenah Tanah F1 1 Liter
+MKL-ASH-5L,ASAM HUMAT Pembenah Tanah F1,ASAM HUMAT Pembenah Tanah F1 5 Liter
+MKL-ASH-25L,ASAM HUMAT Pembenah Tanah F1,ASAM HUMAT Pembenah Tanah F1 25 Liter
+MKL-P65-100ML,PHOSPAT P2O5 Cair Alami 65%,PHOSPAT P2O5 Cair Alami 65% 100 ml
+MKL-P65-500ML,PHOSPAT P2O5 Cair Alami 65%,PHOSPAT P2O5 Cair Alami 65% 500 ml
+MKL-P65-1L,PHOSPAT P2O5 Cair Alami 65%,PHOSPAT P2O5 Cair Alami 65% 1 Liter
+MKL-P65-5L,PHOSPAT P2O5 Cair Alami 65%,PHOSPAT P2O5 Cair Alami 65% 5 Liter
+MKL-P65-25L,PHOSPAT P2O5 Cair Alami 65%,PHOSPAT P2O5 Cair Alami 65% 25 Liter
+MKL-PNB-100ML,Pestisida Plus Perekat & ZPT,Pestisida Plus Perekat & ZPT 100 ml
+MKL-PNB-500ML,Pestisida Plus Perekat & ZPT,Pestisida Plus Perekat & ZPT 500 ml
+MKL-PNB-1L,Pestisida Plus Perekat & ZPT,Pestisida Plus Perekat & ZPT 1 Liter
+MKL-PNB-5L,Pestisida Plus Perekat & ZPT,Pestisida Plus Perekat & ZPT 5 Liter
+MKL-PNB-25L,Pestisida Plus Perekat & ZPT,Pestisida Plus Perekat & ZPT 25 Liter
+MKL-KCL-100ML,Potasium Klorida KCL Cair,Potasium Klorida KCL Cair 100 ml
+MKL-KCL-500ML,Potasium Klorida KCL Cair,Potasium Klorida KCL Cair 500 ml
+MKL-KCL-1L,Potasium Klorida KCL Cair,Potasium Klorida KCL Cair 1 Liter
+MKL-KCL-5L,Potasium Klorida KCL Cair,Potasium Klorida KCL Cair 5 Liter
+MKL-KCL-25L,Potasium Klorida KCL Cair,Potasium Klorida KCL Cair 25 Liter
+MKL-AMB-100ML,Amino Booster Plus ZPT F1,Amino Booster Plus ZPT F1 100 ml
+MKL-AMB-500ML,Amino Booster Plus ZPT F1,Amino Booster Plus ZPT F1 500 ml
+MKL-AMB-1L,Amino Booster Plus ZPT F1,Amino Booster Plus ZPT F1 1 Liter
+MKL-AMB-5L,Amino Booster Plus ZPT F1,Amino Booster Plus ZPT F1 5 Liter
+MKL-AMB-25L,Amino Booster Plus ZPT F1,Amino Booster Plus ZPT F1 25 Liter
+MKL-ASH-P-500G,ASAM HUMAT Pembenah Tanah F1 (Pasta/Serbuk),ASAM HUMAT Pembenah Tanah F1 (Pasta/Serbuk) 500 g
+MKL-ASH-P-1KG,ASAM HUMAT Pembenah Tanah F1 (Pasta/Serbuk),ASAM HUMAT Pembenah Tanah F1 (Pasta/Serbuk) 1 Kg
+MKL-ASH-P-20KG,ASAM HUMAT Pembenah Tanah F1 (Pasta/Serbuk),ASAM HUMAT Pembenah Tanah F1 (Pasta/Serbuk) 20 Kg
+MKL-HMP-500G,Humat Pasta Pupuk Makro F1,Humat Pasta Pupuk Makro F1 500 g
+MKL-HMP-1KG,Humat Pasta Pupuk Makro F1,Humat Pasta Pupuk Makro F1 1 Kg
+MKL-HMP-20KG,Humat Pasta Pupuk Makro F1,Humat Pasta Pupuk Makro F1 20 Kg
+MKL-BSL-500G,Bio Soil Pengganti Dolomit,Bio Soil Pengganti Dolomit 500 g
+MKL-BSL-1KG,Bio Soil Pengganti Dolomit,Bio Soil Pengganti Dolomit 1 Kg
+MKL-BSL-20KG,Bio Soil Pengganti Dolomit,Bio Soil Pengganti Dolomit 20 Kg
