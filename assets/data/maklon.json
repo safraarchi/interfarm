@@ -1,5 +1,41 @@
 [
   {
+    "id": "essen-1-1l",
+    "img": "../assets/images/maklon/essen-1-microba-metrix-1l.webp",
+    "category": "Dekomposer F1",
+    "title": "ESSEN 1 Microba Metrix (1L - 5L)",
+    "desc": "F1 Microba Metrix murni biang dekomposisi & fermentasi cepat kotoran hewan dan limbah organik.",
+    "spec": "F1 Microba Metrix untuk proses fermentasi & dekomposisi kotoran hewan. Cara aplikasi: Siapkan 1 ton bahan lokal/kotoran hewan, berikan 1 liter ESSEN 1 ke dalam 200 liter air, aduk rata siramkan merata (kadar air maksimal 40% agar mikroba berkembang sempurna). Tutup terpal selama 15 hari terlindung cahaya & udara. Tersedia kemasan Jerigen 1 Liter & 5 Liter.",
+    "waText": "Halo Tim Maklon InterFarm, saya tertarik konsultasi maklon formula Essen 1 Microba Metrix (1L - 5L)."
+  },
+  {
+    "id": "essen-1-25l",
+    "img": "../assets/images/maklon/essen-1-microba-metrix-25l.webp",
+    "category": "Dekomposer F1 Jumbo",
+    "title": "ESSEN 1 Microba Metrix Jumbo (25L)",
+    "desc": "F1 Microba Metrix konsentrat tinggi kemasan industri 25 Liter untuk fermentasi massal 5 ton kotoran hewan.",
+    "spec": "F1 Microba Metrix formula dekomposisi skala besar industri & perkebunan. Cara aplikasi: Siapkan 5 ton bahan lokal/kotoran hewan, berikan 25 liter ESSEN 1 ke dalam 1.000 liter air, aduk rata siramkan merata (kadar air maksimal 40% agar mikroba berkembang sempurna). Tutup terpal selama 15 hari terlindung cahaya & udara. Kemasan Jerigen Jumbo 25 Liter.",
+    "waText": "Halo Tim Maklon InterFarm, saya tertarik konsultasi maklon formula Essen 1 Microba Metrix Jumbo (25L)."
+  },
+  {
+    "id": "essen-2-1l",
+    "img": "../assets/images/maklon/essen-2-biang-nutrisi-1l.webp",
+    "category": "Biang Nutrisi F1",
+    "title": "ESSEN 2 Biang Nutrisi (1L - 5L)",
+    "desc": "Biang nutrisi hara makro, mikro, C-Organik, ZPT hormon, enzim, protein amino, Trichoderma, dan mineral.",
+    "spec": "Biang nutrisi lengkap meliputi hara makro, mikro, C-Organik pekat, ZPT, enzim, protein amino, Trichoderma, mineral dll. Cara aplikasi: Diaplikasikan setelah proses dekomposisi selesai ke dalam 1 ton hasil fermentasi Essen 1 sebelumnya. Gunakan 1 sampai 2 liter ESSEN 2, larutkan dengan air agar merata. Setelah selesai, pupuk siap dikemas dan dipasarkan. Tersedia kemasan Jerigen 1 Liter & 5 Liter.",
+    "waText": "Halo Tim Maklon InterFarm, saya tertarik konsultasi maklon formula Essen 2 Biang Nutrisi (1L - 5L)."
+  },
+  {
+    "id": "essen-2-25l",
+    "img": "../assets/images/maklon/essen-2-biang-nutrisi-25l.webp",
+    "category": "Biang Nutrisi F1 Jumbo",
+    "title": "ESSEN 2 Biang Nutrisi Jumbo (25L)",
+    "desc": "Biang nutrisi pekat kemasan jumbo 25 Liter untuk formulasi pupuk organik/hayati kapasitas industri 50 ton.",
+    "spec": "Biang nutrisi lengkap hara makro, mikro, C-Organik pekat, ZPT, enzim, protein amino, Trichoderma, mineral dll kapasitas industri. Cara aplikasi: Diaplikasikan setelah dekomposisi selesai ke dalam 50 ton hasil fermentasi Essen 1 sebelumnya. Gunakan 25 liter ESSEN 2, larutkan dengan air agar merata. Setelah selesai pupuk bernutrisi tinggi siap dikemas dan dipasarkan merek Anda. Kemasan Jerigen Jumbo 25 Liter.",
+    "waText": "Halo Tim Maklon InterFarm, saya tertarik konsultasi maklon formula Essen 2 Biang Nutrisi Jumbo (25L)."
+  },
+  {
     "id": "bio-trico",
     "img": "../assets/images/maklon/bio-trico.webp",
     "category": "Agensi Hayati F1",
